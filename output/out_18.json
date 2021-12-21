@@ -1,0 +1,27 @@
+{
+  "annualChildren" : [ {
+    "children" : [ {
+      "id" : 0,
+      "lastName" : "Cantemir",
+      "firstName" : "Miruna",
+      "city" : "Cluj-Napoca",
+      "age" : 5,
+      "giftsPreference" : [ "Toys", "Board Games", "Clothes" ],
+      "averageScore" : 0.0,
+      "niceScoreHistory" : [ 3.0 ],
+      "assignedBudget" : 0.0,
+      "receivedGifts" : null
+    }, {
+      "id" : 1,
+      "lastName" : "Mihalache",
+      "firstName" : "Miruna",
+      "city" : "Timisoara",
+      "age" : 18,
+      "giftsPreference" : [ "Technology", "Toys", "Clothes" ],
+      "averageScore" : 0.0,
+      "niceScoreHistory" : [ 10.0 ],
+      "assignedBudget" : 0.0,
+      "receivedGifts" : null
+    } ]
+  } ]
+}

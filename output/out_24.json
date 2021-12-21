@@ -1,0 +1,148 @@
+{
+  "annualChildren" : [ {
+    "children" : [ {
+      "id" : 0,
+      "lastName" : "Popa",
+      "firstName" : "Tudor",
+      "city" : "Timisoara",
+      "age" : 20,
+      "giftsPreference" : [ "Clothes", "Board Games", "Technology" ],
+      "averageScore" : 0.0,
+      "niceScoreHistory" : [ 8.0 ],
+      "assignedBudget" : 0.0,
+      "receivedGifts" : null
+    }, {
+      "id" : 1,
+      "lastName" : "Stoica",
+      "firstName" : "Tudor",
+      "city" : "Timisoara",
+      "age" : 10,
+      "giftsPreference" : [ "Toys", "Books" ],
+      "averageScore" : 0.0,
+      "niceScoreHistory" : [ 7.0 ],
+      "assignedBudget" : 0.0,
+      "receivedGifts" : null
+    }, {
+      "id" : 2,
+      "lastName" : "Mihalache",
+      "firstName" : "Tudor",
+      "city" : "Constanta",
+      "age" : 3,
+      "giftsPreference" : [ "Board Games", "Toys", "Books" ],
+      "averageScore" : 0.0,
+      "niceScoreHistory" : [ 9.0 ],
+      "assignedBudget" : 0.0,
+      "receivedGifts" : null
+    }, {
+      "id" : 3,
+      "lastName" : "Mihalache",
+      "firstName" : "Tudor",
+      "city" : "Iasi",
+      "age" : 1,
+      "giftsPreference" : [ "Board Games", "Technology" ],
+      "averageScore" : 0.0,
+      "niceScoreHistory" : [ 10.0 ],
+      "assignedBudget" : 0.0,
+      "receivedGifts" : null
+    }, {
+      "id" : 4,
+      "lastName" : "Pop",
+      "firstName" : "Alexandra",
+      "city" : "Constanta",
+      "age" : 4,
+      "giftsPreference" : [ "Board Games", "Books", "Toys", "Technology" ],
+      "averageScore" : 0.0,
+      "niceScoreHistory" : [ 8.0 ],
+      "assignedBudget" : 0.0,
+      "receivedGifts" : null
+    }, {
+      "id" : 5,
+      "lastName" : "Pop",
+      "firstName" : "Alexandra",
+      "city" : "Craiova",
+      "age" : 18,
+      "giftsPreference" : [ "Books", "Toys", "Technology", "Sweets" ],
+      "averageScore" : 0.0,
+      "niceScoreHistory" : [ 9.0 ],
+      "assignedBudget" : 0.0,
+      "receivedGifts" : null
+    }, {
+      "id" : 6,
+      "lastName" : "Stoica",
+      "firstName" : "Radu",
+      "city" : "Craiova",
+      "age" : 14,
+      "giftsPreference" : [ "Board Games", "Clothes", "Toys", "Books", "Sweets" ],
+      "averageScore" : 0.0,
+      "niceScoreHistory" : [ 8.0 ],
+      "assignedBudget" : 0.0,
+      "receivedGifts" : null
+    }, {
+      "id" : 7,
+      "lastName" : "Ionescu",
+      "firstName" : "Diana",
+      "city" : "Constanta",
+      "age" : 2,
+      "giftsPreference" : [ "Board Games", "Toys", "Books", "Sweets" ],
+      "averageScore" : 0.0,
+      "niceScoreHistory" : [ 2.0 ],
+      "assignedBudget" : 0.0,
+      "receivedGifts" : null
+    }, {
+      "id" : 8,
+      "lastName" : "Ionescu",
+      "firstName" : "Radu",
+      "city" : "Timisoara",
+      "age" : 14,
+      "giftsPreference" : [ "Board Games", "Sweets" ],
+      "averageScore" : 0.0,
+      "niceScoreHistory" : [ 3.0 ],
+      "assignedBudget" : 0.0,
+      "receivedGifts" : null
+    }, {
+      "id" : 9,
+      "lastName" : "Pop",
+      "firstName" : "Miruna",
+      "city" : "Oradea",
+      "age" : 5,
+      "giftsPreference" : [ "Toys", "Technology", "Sweets" ],
+      "averageScore" : 0.0,
+      "niceScoreHistory" : [ 3.0 ],
+      "assignedBudget" : 0.0,
+      "receivedGifts" : null
+    }, {
+      "id" : 10,
+      "lastName" : "Stoica",
+      "firstName" : "Alexandra",
+      "city" : "Cluj-Napoca",
+      "age" : 6,
+      "giftsPreference" : [ "Technology", "Board Games", "Toys", "Books" ],
+      "averageScore" : 0.0,
+      "niceScoreHistory" : [ 4.0 ],
+      "assignedBudget" : 0.0,
+      "receivedGifts" : null
+    }, {
+      "id" : 11,
+      "lastName" : "Popa",
+      "firstName" : "Miruna",
+      "city" : "Bucuresti",
+      "age" : 17,
+      "giftsPreference" : [ "Toys", "Books", "Sweets" ],
+      "averageScore" : 0.0,
+      "niceScoreHistory" : [ 7.0 ],
+      "assignedBudget" : 0.0,
+      "receivedGifts" : null
+    }, {
+      "id" : 12,
+      "lastName" : "Stoica",
+      "firstName" : "Diana",
+      "city" : "Brasov",
+      "age" : 9,
+      "giftsPreference" : [ "Clothes", "Toys" ],
+      "averageScore" : 0.0,
+      "niceScoreHistory" : [ 6.0 ],
+      "assignedBudget" : 0.0,
+      "receivedGifts" : null
+    } ]
+  } ]
+}

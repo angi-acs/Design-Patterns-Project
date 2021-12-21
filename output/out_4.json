@@ -1,0 +1,27 @@
+{
+  "annualChildren" : [ {
+    "children" : [ {
+      "id" : 0,
+      "lastName" : "Stoica",
+      "firstName" : "Miruna",
+      "city" : "Iasi",
+      "age" : 12,
+      "giftsPreference" : [ "Books", "Board Games", "Toys" ],
+      "averageScore" : 0.0,
+      "niceScoreHistory" : [ 10.0 ],
+      "assignedBudget" : 0.0,
+      "receivedGifts" : null
+    }, {
+      "id" : 1,
+      "lastName" : "Pop",
+      "firstName" : "Maria",
+      "city" : "Braila",
+      "age" : 4,
+      "giftsPreference" : [ "Sweets" ],
+      "averageScore" : 0.0,
+      "niceScoreHistory" : [ 9.0 ],
+      "assignedBudget" : 0.0,
+      "receivedGifts" : null
+    } ]
+  } ]
+}

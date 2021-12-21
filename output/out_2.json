@@ -1,0 +1,49 @@
+{
+  "annualChildren" : [ {
+    "children" : [ {
+      "id" : 0,
+      "lastName" : "Popa",
+      "firstName" : "Andreea",
+      "city" : "Iasi",
+      "age" : 20,
+      "giftsPreference" : [ "Technology", "Toys", "Clothes" ],
+      "averageScore" : 0.0,
+      "niceScoreHistory" : [ 8.0 ],
+      "assignedBudget" : 0.0,
+      "receivedGifts" : null
+    }, {
+      "id" : 1,
+      "lastName" : "Mihalache",
+      "firstName" : "Tudor",
+      "city" : "Oradea",
+      "age" : 17,
+      "giftsPreference" : [ "Books", "Board Games" ],
+      "averageScore" : 0.0,
+      "niceScoreHistory" : [ 4.0 ],
+      "assignedBudget" : 0.0,
+      "receivedGifts" : null
+    }, {
+      "id" : 2,
+      "lastName" : "Stoica",
+      "firstName" : "Tudor",
+      "city" : "Craiova",
+      "age" : 3,
+      "giftsPreference" : [ "Books", "Clothes" ],
+      "averageScore" : 0.0,
+      "niceScoreHistory" : [ 9.0 ],
+      "assignedBudget" : 0.0,
+      "receivedGifts" : null
+    }, {
+      "id" : 3,
+      "lastName" : "Pop",
+      "firstName" : "Matei",
+      "city" : "Craiova",
+      "age" : 10,
+      "giftsPreference" : [ "Books", "Board Games" ],
+      "averageScore" : 0.0,
+      "niceScoreHistory" : [ 3.0 ],
+      "assignedBudget" : 0.0,
+      "receivedGifts" : null
+    } ]
+  } ]
+}

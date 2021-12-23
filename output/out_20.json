@@ -7,10 +7,18 @@
       "city" : "Cluj-Napoca",
       "age" : 13,
       "giftsPreference" : [ "Board Games", "Books" ],
-      "averageScore" : 0.0,
+      "averageScore" : 2.0,
       "niceScoreHistory" : [ 2.0 ],
-      "assignedBudget" : 0.0,
-      "receivedGifts" : null
+      "assignedBudget" : 28.742857142857147,
+      "receivedGifts" : [ {
+        "productName" : "Uno",
+        "price" : 10.0,
+        "category" : "Board Games"
+      }, {
+        "productName" : "Twilight",
+        "price" : 30.0,
+        "category" : "Books"
+      } ]
     }, {
       "id" : 1,
       "lastName" : "Ionescu",
@@ -18,10 +26,14 @@
       "city" : "Brasov",
       "age" : 17,
       "giftsPreference" : [ "Clothes", "Technology" ],
-      "averageScore" : 0.0,
+      "averageScore" : 9.0,
       "niceScoreHistory" : [ 9.0 ],
-      "assignedBudget" : 0.0,
-      "receivedGifts" : null
+      "assignedBudget" : 264.34285714285716,
+      "receivedGifts" : [ {
+        "productName" : "Dress",
+        "price" : 45.0,
+        "category" : "Clothes"
+      } ]
     }, {
       "id" : 2,
       "lastName" : "Cantemir",
@@ -29,10 +41,18 @@
       "city" : "Braila",
       "age" : 4,
       "giftsPreference" : [ "Clothes", "Sweets" ],
-      "averageScore" : 0.0,
+      "averageScore" : 10.0,
       "niceScoreHistory" : [ 4.0 ],
-      "assignedBudget" : 0.0,
-      "receivedGifts" : null
+      "assignedBudget" : 278.7142857142857,
+      "receivedGifts" : [ {
+        "productName" : "Dress",
+        "price" : 45.0,
+        "category" : "Clothes"
+      }, {
+        "productName" : "Bag of Candy",
+        "price" : 20.0,
+        "category" : "Sweets"
+      } ]
     }, {
       "id" : 3,
       "lastName" : "Pop",
@@ -40,10 +60,14 @@
       "city" : "Braila",
       "age" : 7,
       "giftsPreference" : [ "Toys", "Technology" ],
-      "averageScore" : 0.0,
+      "averageScore" : 10.0,
       "niceScoreHistory" : [ 10.0 ],
-      "assignedBudget" : 0.0,
-      "receivedGifts" : null
+      "assignedBudget" : 338.7142857142857,
+      "receivedGifts" : [ {
+        "productName" : "Teddy Bear",
+        "price" : 5.0,
+        "category" : "Toys"
+      } ]
     }, {
       "id" : 4,
       "lastName" : "Pop",
@@ -51,10 +75,18 @@
       "city" : "Cluj-Napoca",
       "age" : 18,
       "giftsPreference" : [ "Clothes", "Sweets", "Technology" ],
-      "averageScore" : 0.0,
+      "averageScore" : 4.0,
       "niceScoreHistory" : [ 4.0 ],
-      "assignedBudget" : 0.0,
-      "receivedGifts" : null
+      "assignedBudget" : 72.4857142857143,
+      "receivedGifts" : [ {
+        "productName" : "Dress",
+        "price" : 45.0,
+        "category" : "Clothes"
+      }, {
+        "productName" : "Bag of Candy",
+        "price" : 20.0,
+        "category" : "Sweets"
+      } ]
     } ]
   } ]
 }

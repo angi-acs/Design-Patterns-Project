@@ -7,10 +7,14 @@
       "city" : "Brasov",
       "age" : 4,
       "giftsPreference" : [ "Books" ],
-      "averageScore" : 0.0,
+      "averageScore" : 10.0,
       "niceScoreHistory" : [ 3.0 ],
-      "assignedBudget" : 0.0,
-      "receivedGifts" : null
+      "assignedBudget" : 40.625,
+      "receivedGifts" : [ {
+        "productName" : "Harry Potter",
+        "price" : 35.0,
+        "category" : "Books"
+      } ]
     }, {
       "id" : 1,
       "lastName" : "Stoica",
@@ -18,10 +22,14 @@
       "city" : "Timisoara",
       "age" : 11,
       "giftsPreference" : [ "Toys" ],
-      "averageScore" : 0.0,
+      "averageScore" : 2.0,
       "niceScoreHistory" : [ 2.0 ],
-      "assignedBudget" : 0.0,
-      "receivedGifts" : null
+      "assignedBudget" : 5.125,
+      "receivedGifts" : [ {
+        "productName" : "Doll",
+        "price" : 10.0,
+        "category" : "Toys"
+      } ]
     }, {
       "id" : 2,
       "lastName" : "Pop",
@@ -29,10 +37,14 @@
       "city" : "Iasi",
       "age" : 9,
       "giftsPreference" : [ "Sweets", "Toys" ],
-      "averageScore" : 0.0,
+      "averageScore" : 10.0,
       "niceScoreHistory" : [ 10.0 ],
-      "assignedBudget" : 0.0,
-      "receivedGifts" : null
+      "assignedBudget" : 65.625,
+      "receivedGifts" : [ {
+        "productName" : "Doll",
+        "price" : 10.0,
+        "category" : "Toys"
+      } ]
     }, {
       "id" : 3,
       "lastName" : "Pop",
@@ -40,10 +52,14 @@
       "city" : "Craiova",
       "age" : 2,
       "giftsPreference" : [ "Toys" ],
-      "averageScore" : 0.0,
+      "averageScore" : 10.0,
       "niceScoreHistory" : [ 2.0 ],
-      "assignedBudget" : 0.0,
-      "receivedGifts" : null
+      "assignedBudget" : 65.625,
+      "receivedGifts" : [ {
+        "productName" : "Doll",
+        "price" : 10.0,
+        "category" : "Toys"
+      } ]
     } ]
   } ]
 }

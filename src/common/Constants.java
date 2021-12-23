@@ -35,6 +35,10 @@ public final class Constants {
     public static final String NEW_GIFTS = "newGifts";
     public static final String NEW_CHILDREN = "newChildren";
     public static final String UPDATES = "childrenUpdates";
+    public static final Integer BABY = 5;
+    public static final Integer KID = 12;
+    public static final Integer TEEN = 18;
+    public static final Integer BABY_SCORE = 10;
 
     private Constants() {
         //constructor for checkstyle

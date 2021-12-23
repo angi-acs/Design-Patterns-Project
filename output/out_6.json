@@ -7,10 +7,10 @@
       "city" : "Braila",
       "age" : 15,
       "giftsPreference" : [ "Clothes", "Toys" ],
-      "averageScore" : 0.0,
+      "averageScore" : 7.0,
       "niceScoreHistory" : [ 7.0 ],
-      "assignedBudget" : 0.0,
-      "receivedGifts" : null
+      "assignedBudget" : 4.375,
+      "receivedGifts" : [ ]
     }, {
       "id" : 1,
       "lastName" : "Cantemir",
@@ -18,10 +18,10 @@
       "city" : "Brasov",
       "age" : 15,
       "giftsPreference" : [ "Toys", "Board Games" ],
-      "averageScore" : 0.0,
+      "averageScore" : 3.0,
       "niceScoreHistory" : [ 3.0 ],
-      "assignedBudget" : 0.0,
-      "receivedGifts" : null
+      "assignedBudget" : 1.875,
+      "receivedGifts" : [ ]
     }, {
       "id" : 2,
       "lastName" : "Ionescu",
@@ -29,10 +29,10 @@
       "city" : "Oradea",
       "age" : 16,
       "giftsPreference" : [ "Books", "Sweets" ],
-      "averageScore" : 0.0,
+      "averageScore" : 6.0,
       "niceScoreHistory" : [ 6.0 ],
-      "assignedBudget" : 0.0,
-      "receivedGifts" : null
+      "assignedBudget" : 3.75,
+      "receivedGifts" : [ ]
     } ]
   } ]
 }

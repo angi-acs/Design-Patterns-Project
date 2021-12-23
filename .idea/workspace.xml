@@ -5,11 +5,46 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d662010a-d6c5-4bb5-92a6-5b13c2206c94" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/checkstyle.txt" beforeDir="false" afterPath="$PROJECT_DIR$/checkstyle.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/proiect1/child/Child.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/proiect1/child/Child.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/proiect1/common/Constants.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/proiect1/common/Constants.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/proiect1/fileio/AnnualChange.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/proiect1/fileio/AnnualChange.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/proiect1/fileio/ChildUpdate.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/proiect1/fileio/ChildUpdate.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/proiect1/fileio/InputReader.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/proiect1/fileio/InputReader.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/proiect1/main/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/proiect1/main/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/proiect1/santa/Santa.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/proiect1/santa/Santa.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/out_1.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/out_10.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/out_11.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/out_12.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/out_13.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/out_14.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/out_15.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/out_16.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/out_17.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/out_18.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/out_19.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/out_2.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/out_20.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/out_21.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/out_22.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/out_23.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/out_24.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/out_25.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/out_3.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/out_4.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/out_5.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/out_6.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/out_7.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/out_8.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/out_9.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/child/Child.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/child/Child.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/common/Constants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/common/Constants.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fileio/AnnualChange.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fileio/AnnualChange.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fileio/ChildUpdate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fileio/ChildUpdate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fileio/InputReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fileio/InputReader.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/santa/Santa.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/santa/Santa.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,6 +54,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -35,7 +71,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../oop-321cd-a-vineri-12-14-angi-acs" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />

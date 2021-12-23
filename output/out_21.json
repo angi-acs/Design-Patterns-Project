@@ -7,21 +7,22 @@
       "city" : "Craiova",
       "age" : 2,
       "giftsPreference" : [ "Clothes", "Toys", "Board Games" ],
-      "averageScore" : 0.0,
+      "averageScore" : 10.0,
       "niceScoreHistory" : [ 10.0 ],
-      "assignedBudget" : 0.0,
-      "receivedGifts" : null
-    }, {
-      "id" : 1,
-      "lastName" : "Pop",
-      "firstName" : "Matei",
-      "city" : "Bucuresti",
-      "age" : 19,
-      "giftsPreference" : [ "Clothes", "Sweets" ],
-      "averageScore" : 0.0,
-      "niceScoreHistory" : [ 8.0 ],
-      "assignedBudget" : 0.0,
-      "receivedGifts" : null
+      "assignedBudget" : 228.1818181818182,
+      "receivedGifts" : [ {
+        "productName" : "Dress",
+        "price" : 45.0,
+        "category" : "Clothes"
+      }, {
+        "productName" : "Teddy Bear",
+        "price" : 5.0,
+        "category" : "Toys"
+      }, {
+        "productName" : "Uno",
+        "price" : 10.0,
+        "category" : "Board Games"
+      } ]
     }, {
       "id" : 2,
       "lastName" : "Popescu",
@@ -29,10 +30,14 @@
       "city" : "Brasov",
       "age" : 9,
       "giftsPreference" : [ "Technology", "Sweets" ],
-      "averageScore" : 0.0,
+      "averageScore" : 10.0,
       "niceScoreHistory" : [ 10.0 ],
-      "assignedBudget" : 0.0,
-      "receivedGifts" : null
+      "assignedBudget" : 278.1818181818182,
+      "receivedGifts" : [ {
+        "productName" : "Gummy Bears",
+        "price" : 10.0,
+        "category" : "Sweets"
+      } ]
     }, {
       "id" : 3,
       "lastName" : "Popescu",
@@ -40,10 +45,22 @@
       "city" : "Timisoara",
       "age" : 10,
       "giftsPreference" : [ "Board Games", "Toys", "Technology", "Books" ],
-      "averageScore" : 0.0,
+      "averageScore" : 6.0,
       "niceScoreHistory" : [ 6.0 ],
-      "assignedBudget" : 0.0,
-      "receivedGifts" : null
+      "assignedBudget" : 132.9090909090909,
+      "receivedGifts" : [ {
+        "productName" : "Uno",
+        "price" : 10.0,
+        "category" : "Board Games"
+      }, {
+        "productName" : "Teddy Bear",
+        "price" : 5.0,
+        "category" : "Toys"
+      }, {
+        "productName" : "Diary of a Wimpy Kid",
+        "price" : 25.0,
+        "category" : "Books"
+      } ]
     }, {
       "id" : 4,
       "lastName" : "Pop",
@@ -51,21 +68,18 @@
       "city" : "Iasi",
       "age" : 1,
       "giftsPreference" : [ "Board Games", "Clothes" ],
-      "averageScore" : 0.0,
+      "averageScore" : 10.0,
       "niceScoreHistory" : [ 10.0 ],
-      "assignedBudget" : 0.0,
-      "receivedGifts" : null
-    }, {
-      "id" : 5,
-      "lastName" : "Stoica",
-      "firstName" : "Miruna",
-      "city" : "Bucuresti",
-      "age" : 19,
-      "giftsPreference" : [ "Toys", "Sweets" ],
-      "averageScore" : 0.0,
-      "niceScoreHistory" : [ 6.0 ],
-      "assignedBudget" : 0.0,
-      "receivedGifts" : null
+      "assignedBudget" : 233.1818181818182,
+      "receivedGifts" : [ {
+        "productName" : "Uno",
+        "price" : 10.0,
+        "category" : "Board Games"
+      }, {
+        "productName" : "Dress",
+        "price" : 45.0,
+        "category" : "Clothes"
+      } ]
     }, {
       "id" : 6,
       "lastName" : "Cantemir",
@@ -73,10 +87,22 @@
       "city" : "Oradea",
       "age" : 1,
       "giftsPreference" : [ "Board Games", "Toys", "Books" ],
-      "averageScore" : 0.0,
+      "averageScore" : 10.0,
       "niceScoreHistory" : [ 9.0 ],
-      "assignedBudget" : 0.0,
-      "receivedGifts" : null
+      "assignedBudget" : 248.1818181818182,
+      "receivedGifts" : [ {
+        "productName" : "Uno",
+        "price" : 10.0,
+        "category" : "Board Games"
+      }, {
+        "productName" : "Teddy Bear",
+        "price" : 5.0,
+        "category" : "Toys"
+      }, {
+        "productName" : "Diary of a Wimpy Kid",
+        "price" : 25.0,
+        "category" : "Books"
+      } ]
     }, {
       "id" : 7,
       "lastName" : "Ionescu",
@@ -84,10 +110,18 @@
       "city" : "Braila",
       "age" : 11,
       "giftsPreference" : [ "Board Games", "Toys" ],
-      "averageScore" : 0.0,
+      "averageScore" : 10.0,
       "niceScoreHistory" : [ 10.0 ],
-      "assignedBudget" : 0.0,
-      "receivedGifts" : null
+      "assignedBudget" : 273.1818181818182,
+      "receivedGifts" : [ {
+        "productName" : "Uno",
+        "price" : 10.0,
+        "category" : "Board Games"
+      }, {
+        "productName" : "Teddy Bear",
+        "price" : 5.0,
+        "category" : "Toys"
+      } ]
     }, {
       "id" : 8,
       "lastName" : "Pop",
@@ -95,21 +129,22 @@
       "city" : "Constanta",
       "age" : 10,
       "giftsPreference" : [ "Books", "Toys", "Sweets" ],
-      "averageScore" : 0.0,
+      "averageScore" : 10.0,
       "niceScoreHistory" : [ 10.0 ],
-      "assignedBudget" : 0.0,
-      "receivedGifts" : null
-    }, {
-      "id" : 9,
-      "lastName" : "Cantemir",
-      "firstName" : "Diana",
-      "city" : "Craiova",
-      "age" : 19,
-      "giftsPreference" : [ "Board Games", "Technology", "Toys", "Books" ],
-      "averageScore" : 0.0,
-      "niceScoreHistory" : [ 2.0 ],
-      "assignedBudget" : 0.0,
-      "receivedGifts" : null
+      "assignedBudget" : 248.1818181818182,
+      "receivedGifts" : [ {
+        "productName" : "Diary of a Wimpy Kid",
+        "price" : 25.0,
+        "category" : "Books"
+      }, {
+        "productName" : "Teddy Bear",
+        "price" : 5.0,
+        "category" : "Toys"
+      }, {
+        "productName" : "Gummy Bears",
+        "price" : 10.0,
+        "category" : "Sweets"
+      } ]
     } ]
   } ]
 }

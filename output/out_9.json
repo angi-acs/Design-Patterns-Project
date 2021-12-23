@@ -7,10 +7,18 @@
       "city" : "Brasov",
       "age" : 10,
       "giftsPreference" : [ "Books", "Sweets", "Toys" ],
-      "averageScore" : 0.0,
+      "averageScore" : 5.0,
       "niceScoreHistory" : [ 5.0 ],
-      "assignedBudget" : 0.0,
-      "receivedGifts" : null
+      "assignedBudget" : 9.78260869565218,
+      "receivedGifts" : [ {
+        "productName" : "Diary of a Wimpy Kid",
+        "price" : 25.0,
+        "category" : "Books"
+      }, {
+        "productName" : "Bag of Candy",
+        "price" : 20.0,
+        "category" : "Sweets"
+      } ]
     }, {
       "id" : 1,
       "lastName" : "Stoica",
@@ -18,10 +26,10 @@
       "city" : "Oradea",
       "age" : 15,
       "giftsPreference" : [ "Board Games" ],
-      "averageScore" : 0.0,
+      "averageScore" : 8.0,
       "niceScoreHistory" : [ 8.0 ],
-      "assignedBudget" : 0.0,
-      "receivedGifts" : null
+      "assignedBudget" : 87.65217391304348,
+      "receivedGifts" : [ ]
     }, {
       "id" : 2,
       "lastName" : "Ionescu",
@@ -29,10 +37,14 @@
       "city" : "Oradea",
       "age" : 8,
       "giftsPreference" : [ "Toys" ],
-      "averageScore" : 0.0,
+      "averageScore" : 4.0,
       "niceScoreHistory" : [ 4.0 ],
-      "assignedBudget" : 0.0,
-      "receivedGifts" : null
+      "assignedBudget" : 33.82608695652174,
+      "receivedGifts" : [ {
+        "productName" : "Doll",
+        "price" : 10.0,
+        "category" : "Toys"
+      } ]
     }, {
       "id" : 3,
       "lastName" : "Popa",
@@ -40,10 +52,18 @@
       "city" : "Timisoara",
       "age" : 16,
       "giftsPreference" : [ "Sweets", "Toys" ],
-      "averageScore" : 0.0,
+      "averageScore" : 6.0,
       "niceScoreHistory" : [ 6.0 ],
-      "assignedBudget" : 0.0,
-      "receivedGifts" : null
+      "assignedBudget" : 35.73913043478261,
+      "receivedGifts" : [ {
+        "productName" : "Bag of Candy",
+        "price" : 20.0,
+        "category" : "Sweets"
+      }, {
+        "productName" : "Doll",
+        "price" : 10.0,
+        "category" : "Toys"
+      } ]
     } ]
   } ]
 }

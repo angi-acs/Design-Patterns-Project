@@ -2,7 +2,6 @@ package fileio;
 
 import child.Child;
 import common.Constants;
-import enums.Category;
 import lombok.Getter;
 import org.json.simple.JSONArray;
 import org.json.simple.JSONObject;
@@ -10,6 +9,7 @@ import org.json.simple.parser.JSONParser;
 import org.json.simple.parser.ParseException;
 import santa.Gift;
 import santa.Santa;
+import utils.Utils;
 
 import java.io.FileReader;
 import java.io.IOException;
@@ -52,7 +52,6 @@ public class InputReader {
      * @throws IOException b
      * @throws ParseException c
      */
-    @SuppressWarnings("unchecked")
     public ArrayList<AnnualChange> annualChanges() throws IOException, ParseException {
         JSONParser jsonParser = new JSONParser();
         JSONObject jsonObject = (JSONObject) jsonParser
@@ -81,15 +80,15 @@ public class InputReader {
                                             .toString()),
                                     Double.parseDouble(((JSONObject) update)
                                             .get(Constants.NICE_SCORE).toString()),
-                                    (ArrayList<Category>) ((JSONObject)
-                                            update).get(Constants.GIFTS_PREFERENCES)
+                                    Utils.convertJSONArray((JSONArray) ((JSONObject) update)
+                                            .get(Constants.GIFTS_PREFERENCES))
                             ));
                         } else {
                             childrenUpdates.add(new ChildUpdate(
                                     Integer.parseInt(((JSONObject) update).get(Constants.ID)
                                             .toString()),
-                                    (ArrayList<Category>) ((JSONObject)
-                                            update).get(Constants.GIFTS_PREFERENCES)
+                                    Utils.convertJSONArray((JSONArray) ((JSONObject) update)
+                                            .get(Constants.GIFTS_PREFERENCES))
                             ));
                         }
                     }
@@ -106,7 +105,6 @@ public class InputReader {
      * @param jsonChildren a
      * @return b
      */
-    @SuppressWarnings("unchecked")
     public static ArrayList<Child> readChildren(final JSONArray jsonChildren) {
         ArrayList<Child> children = new ArrayList<>();
         if (jsonChildren != null) {
@@ -119,8 +117,8 @@ public class InputReader {
                         (String) ((JSONObject) jsonChild).get(Constants.CITY),
                         Integer.parseInt(((JSONObject) jsonChild).get(Constants.AGE)
                                 .toString()),
-                        (ArrayList<Category>) ((JSONObject)
-                                jsonChild).get(Constants.GIFTS_PREFERENCES),
+                        Utils.convertJSONArray((JSONArray) ((JSONObject) jsonChild)
+                                .get(Constants.GIFTS_PREFERENCES)),
                         Double.parseDouble(((JSONObject) jsonChild).get(Constants.NICE_SCORE)
                                 .toString())
                 ));

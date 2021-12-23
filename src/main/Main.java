@@ -71,7 +71,16 @@ public final class Main {
         Writer writer = new Writer(filePath2);
 
         Santa santa = inputReader.initialData();
-        writer.writeToFile(santa.getChildren());
+
+        /*
+         * Initialize observer
+         *
+        Output output = new Output(writer);
+        santa.addObserver(output);
+        */
+
+        Simulation simulation = new Simulation(santa, writer);
+        simulation.roundZero();
         writer.closeFile();
     }
 }

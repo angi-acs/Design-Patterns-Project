@@ -1,27 +1,24 @@
 {
   "annualChildren" : [ {
     "children" : [ {
-      "id" : 0,
-      "lastName" : "Popa",
-      "firstName" : "Andreea",
-      "city" : "Iasi",
-      "age" : 20,
-      "giftsPreference" : [ "Technology", "Toys", "Clothes" ],
-      "averageScore" : 0.0,
-      "niceScoreHistory" : [ 8.0 ],
-      "assignedBudget" : 0.0,
-      "receivedGifts" : null
-    }, {
       "id" : 1,
       "lastName" : "Mihalache",
       "firstName" : "Tudor",
       "city" : "Oradea",
       "age" : 17,
       "giftsPreference" : [ "Books", "Board Games" ],
-      "averageScore" : 0.0,
+      "averageScore" : 4.0,
       "niceScoreHistory" : [ 4.0 ],
-      "assignedBudget" : 0.0,
-      "receivedGifts" : null
+      "assignedBudget" : 249.23529411764707,
+      "receivedGifts" : [ {
+        "productName" : "Diary of a Wimpy Kid",
+        "price" : 25.0,
+        "category" : "Books"
+      }, {
+        "productName" : "Monopoly",
+        "price" : 30.0,
+        "category" : "Board Games"
+      } ]
     }, {
       "id" : 2,
       "lastName" : "Stoica",
@@ -29,10 +26,18 @@
       "city" : "Craiova",
       "age" : 3,
       "giftsPreference" : [ "Books", "Clothes" ],
-      "averageScore" : 0.0,
+      "averageScore" : 10.0,
       "niceScoreHistory" : [ 9.0 ],
-      "assignedBudget" : 0.0,
-      "receivedGifts" : null
+      "assignedBudget" : 665.5882352941177,
+      "receivedGifts" : [ {
+        "productName" : "Diary of a Wimpy Kid",
+        "price" : 25.0,
+        "category" : "Books"
+      }, {
+        "productName" : "Shoes",
+        "price" : 70.0,
+        "category" : "Clothes"
+      } ]
     }, {
       "id" : 3,
       "lastName" : "Pop",
@@ -40,10 +45,18 @@
       "city" : "Craiova",
       "age" : 10,
       "giftsPreference" : [ "Books", "Board Games" ],
-      "averageScore" : 0.0,
+      "averageScore" : 3.0,
       "niceScoreHistory" : [ 3.0 ],
-      "assignedBudget" : 0.0,
-      "receivedGifts" : null
+      "assignedBudget" : 173.1764705882353,
+      "receivedGifts" : [ {
+        "productName" : "Diary of a Wimpy Kid",
+        "price" : 25.0,
+        "category" : "Books"
+      }, {
+        "productName" : "Monopoly",
+        "price" : 30.0,
+        "category" : "Board Games"
+      } ]
     } ]
   } ]
 }

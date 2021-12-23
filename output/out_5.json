@@ -7,10 +7,10 @@
       "city" : "Bucuresti",
       "age" : 14,
       "giftsPreference" : [ "Sweets", "Board Games", "Books" ],
-      "averageScore" : 0.0,
+      "averageScore" : 9.0,
       "niceScoreHistory" : [ 9.0 ],
       "assignedBudget" : 0.0,
-      "receivedGifts" : null
+      "receivedGifts" : [ ]
     }, {
       "id" : 1,
       "lastName" : "Mihalache",
@@ -18,10 +18,10 @@
       "city" : "Constanta",
       "age" : 4,
       "giftsPreference" : [ "Toys", "Sweets", "Books" ],
-      "averageScore" : 0.0,
+      "averageScore" : 10.0,
       "niceScoreHistory" : [ 2.0 ],
       "assignedBudget" : 0.0,
-      "receivedGifts" : null
+      "receivedGifts" : [ ]
     }, {
       "id" : 2,
       "lastName" : "Ionescu",
@@ -29,10 +29,10 @@
       "city" : "Braila",
       "age" : 16,
       "giftsPreference" : [ "Technology" ],
-      "averageScore" : 0.0,
+      "averageScore" : 7.0,
       "niceScoreHistory" : [ 7.0 ],
       "assignedBudget" : 0.0,
-      "receivedGifts" : null
+      "receivedGifts" : [ ]
     }, {
       "id" : 3,
       "lastName" : "Popa",
@@ -40,10 +40,10 @@
       "city" : "Cluj-Napoca",
       "age" : 8,
       "giftsPreference" : [ "Books" ],
-      "averageScore" : 0.0,
+      "averageScore" : 7.0,
       "niceScoreHistory" : [ 7.0 ],
       "assignedBudget" : 0.0,
-      "receivedGifts" : null
+      "receivedGifts" : [ ]
     }, {
       "id" : 4,
       "lastName" : "Stoica",
@@ -51,10 +51,10 @@
       "city" : "Constanta",
       "age" : 11,
       "giftsPreference" : [ "Sweets", "Board Games", "Books" ],
-      "averageScore" : 0.0,
+      "averageScore" : 3.0,
       "niceScoreHistory" : [ 3.0 ],
       "assignedBudget" : 0.0,
-      "receivedGifts" : null
+      "receivedGifts" : [ ]
     } ]
   } ]
 }

@@ -7,10 +7,18 @@
       "city" : "Braila",
       "age" : 6,
       "giftsPreference" : [ "Books", "Technology", "Board Games" ],
-      "averageScore" : 0.0,
+      "averageScore" : 10.0,
       "niceScoreHistory" : [ 10.0 ],
-      "assignedBudget" : 0.0,
-      "receivedGifts" : null
+      "assignedBudget" : 371.78571428571433,
+      "receivedGifts" : [ {
+        "productName" : "Diary of a Wimpy Kid",
+        "price" : 25.0,
+        "category" : "Books"
+      }, {
+        "productName" : "Uno",
+        "price" : 10.0,
+        "category" : "Board Games"
+      } ]
     }, {
       "id" : 1,
       "lastName" : "Stoica",
@@ -18,10 +26,18 @@
       "city" : "Braila",
       "age" : 3,
       "giftsPreference" : [ "Clothes", "Toys" ],
-      "averageScore" : 0.0,
+      "averageScore" : 10.0,
       "niceScoreHistory" : [ 6.0 ],
-      "assignedBudget" : 0.0,
-      "receivedGifts" : null
+      "assignedBudget" : 356.78571428571433,
+      "receivedGifts" : [ {
+        "productName" : "Dress",
+        "price" : 45.0,
+        "category" : "Clothes"
+      }, {
+        "productName" : "Teddy Bear",
+        "price" : 5.0,
+        "category" : "Toys"
+      } ]
     }, {
       "id" : 2,
       "lastName" : "Cantemir",
@@ -29,32 +45,18 @@
       "city" : "Iasi",
       "age" : 9,
       "giftsPreference" : [ "Board Games", "Sweets" ],
-      "averageScore" : 0.0,
+      "averageScore" : 8.0,
       "niceScoreHistory" : [ 8.0 ],
-      "assignedBudget" : 0.0,
-      "receivedGifts" : null
-    }, {
-      "id" : 3,
-      "lastName" : "Pop",
-      "firstName" : "Tudor",
-      "city" : "Timisoara",
-      "age" : 20,
-      "giftsPreference" : [ "Books", "Toys" ],
-      "averageScore" : 0.0,
-      "niceScoreHistory" : [ 7.0 ],
-      "assignedBudget" : 0.0,
-      "receivedGifts" : null
-    }, {
-      "id" : 4,
-      "lastName" : "Pop",
-      "firstName" : "Miruna",
-      "city" : "Braila",
-      "age" : 19,
-      "giftsPreference" : [ "Books", "Board Games", "Sweets" ],
-      "averageScore" : 0.0,
-      "niceScoreHistory" : [ 9.0 ],
-      "assignedBudget" : 0.0,
-      "receivedGifts" : null
+      "assignedBudget" : 305.42857142857144,
+      "receivedGifts" : [ {
+        "productName" : "Uno",
+        "price" : 10.0,
+        "category" : "Board Games"
+      }, {
+        "productName" : "Gummy Bears",
+        "price" : 10.0,
+        "category" : "Sweets"
+      } ]
     } ]
   } ]
 }

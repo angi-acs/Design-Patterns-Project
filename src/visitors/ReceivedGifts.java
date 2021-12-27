@@ -9,12 +9,8 @@ import java.util.Comparator;
 import java.util.LinkedHashMap;
 import java.util.Map;
 
-public class ReceivedGifts implements ChildVisitor {
-    private final Santa santa;
-
-    public ReceivedGifts(final Santa santa) {
-        this.santa = santa;
-    }
+public class ReceivedGifts implements Visitor {
+    private Santa santaClaus;
 
     /**
      * a
@@ -25,9 +21,9 @@ public class ReceivedGifts implements ChildVisitor {
         LinkedHashMap<String, ArrayList<Gift>> categories = new LinkedHashMap<>();
         ArrayList<Gift> possibleGifts;
 
-        for (String category : child.getGiftsPreference()) {
+        for (String category : child.getGiftsPreferences()) {
             possibleGifts = new ArrayList<>();
-            for (Gift gift : santa.getGifts()) {
+            for (Gift gift : santaClaus.getGifts()) {
                 if (gift.getCategory().equals(category)) {
                     possibleGifts.add(gift);
                 }
@@ -36,19 +32,29 @@ public class ReceivedGifts implements ChildVisitor {
         }
 
         ArrayList<Gift> receivedGifts = new ArrayList<>();
+        double budget = child.getAssignedBudget();
 
         for (Map.Entry<String, ArrayList<Gift>> entry : categories.entrySet()) {
             possibleGifts = entry.getValue();
             if (!possibleGifts.isEmpty()) {
                 possibleGifts.sort(Comparator.comparingDouble(Gift::getPrice));
                 Gift gift = possibleGifts.get(0);
-                if (child.getAssignedBudget() > gift.getPrice()) {
+                if (budget > gift.getPrice()) {
                     receivedGifts.add(gift);
-                    double budget = child.getAssignedBudget();
-                    child.setAssignedBudget(budget - gift.getPrice());
+                    budget -= gift.getPrice();
                 }
             }
         }
         child.setReceivedGifts(receivedGifts);
+    }
+
+    /**
+     *
+     * @param santa a
+     */
+    @Override
+    public void visit(final Santa santa) {
+        this.santaClaus = santa;
+        santa.getChildren().forEach(child -> child.accept(this));
     }
 }

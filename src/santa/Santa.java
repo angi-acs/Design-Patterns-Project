@@ -1,15 +1,16 @@
 package santa;
 
 import child.Child;
-import fileio.AnnualChange;
 import lombok.Getter;
 import lombok.Setter;
 import observers.Observable;
+import visitors.Visitable;
+import visitors.Visitor;
 
 import java.util.ArrayList;
 
 @Getter @Setter
-public class Santa extends Observable {
+public class Santa extends Observable implements Visitable {
     private double budget;
     private final ArrayList<Child> children;
     private final ArrayList<Gift> gifts;
@@ -22,10 +23,33 @@ public class Santa extends Observable {
     }
 
     /**
-     * a
-     * @param annualChange b
+     *
+     * @param visitor a
      */
-    public void update(final AnnualChange annualChange) {
-        notifyObservers(annualChange.getNewChildren());
+    @Override
+    public void accept(final Visitor visitor) {
+        visitor.visit(this);
     }
+
+    /**
+     * a
+     */
+    public void update() {
+        notifyObservers(children);
+    }
+
+    /**
+     * a
+     * @param id b
+     * @return c
+     */
+    public Child getChildById(final int id) {
+        for (Child child : children) {
+            if (child.getId() == id) {
+                return child;
+            }
+        }
+        return null;
+    }
+
 }

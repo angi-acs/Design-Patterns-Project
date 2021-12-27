@@ -2,8 +2,10 @@ package main;
 
 import checker.Checker;
 import common.Constants;
+import fileio.AnnualChange;
 import fileio.InputReader;
 import fileio.Writer;
+import observers.Output;
 import org.json.simple.parser.ParseException;
 import santa.Santa;
 
@@ -12,6 +14,7 @@ import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
+import java.util.ArrayList;
 import java.util.Objects;
 
 /**
@@ -74,13 +77,17 @@ public final class Main {
 
         /*
          * Initialize observer
-         *
+         */
         Output output = new Output(writer);
         santa.addObserver(output);
-        */
 
-        Simulation simulation = new Simulation(santa, writer);
+        Simulation simulation = new Simulation(santa);
         simulation.roundZero();
+
+        ArrayList<AnnualChange> annualChanges = inputReader.annualChanges();
+        for (int i = 0; i < inputReader.getNumberOfYears(); i++) {
+            simulation.round(annualChanges.get(i));
+        }
         writer.closeFile();
     }
 }

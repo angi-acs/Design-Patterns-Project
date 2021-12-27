@@ -39,6 +39,7 @@ public final class Constants {
     public static final Integer KID = 12;
     public static final Integer TEEN = 18;
     public static final Integer BABY_SCORE = 10;
+    public static final Integer NO_NEW_NICE_SCORE = -1;
 
     private Constants() {
         //constructor for checkstyle

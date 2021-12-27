@@ -6,7 +6,7 @@
       "firstName" : "Andreea",
       "city" : "Braila",
       "age" : 15,
-      "giftsPreference" : [ "Clothes", "Toys" ],
+      "giftsPreferences" : [ "Clothes", "Toys" ],
       "averageScore" : 7.0,
       "niceScoreHistory" : [ 7.0 ],
       "assignedBudget" : 4.375,
@@ -17,7 +17,7 @@
       "firstName" : "Diana",
       "city" : "Brasov",
       "age" : 15,
-      "giftsPreference" : [ "Toys", "Board Games" ],
+      "giftsPreferences" : [ "Toys", "Board Games" ],
       "averageScore" : 3.0,
       "niceScoreHistory" : [ 3.0 ],
       "assignedBudget" : 1.875,
@@ -28,11 +28,151 @@
       "firstName" : "Miruna",
       "city" : "Oradea",
       "age" : 16,
-      "giftsPreference" : [ "Books", "Sweets" ],
+      "giftsPreferences" : [ "Books", "Sweets" ],
       "averageScore" : 6.0,
       "niceScoreHistory" : [ 6.0 ],
       "assignedBudget" : 3.75,
       "receivedGifts" : [ ]
     } ]
+  }, {
+    "children" : [ {
+      "id" : 0,
+      "lastName" : "Popescu",
+      "firstName" : "Andreea",
+      "city" : "Braila",
+      "age" : 16,
+      "giftsPreferences" : [ "Clothes", "Toys" ],
+      "averageScore" : 7.0,
+      "niceScoreHistory" : [ 7.0 ],
+      "assignedBudget" : 111.125,
+      "receivedGifts" : [ {
+        "productName" : "Dress",
+        "price" : 45.0,
+        "category" : "Clothes"
+      }, {
+        "productName" : "Doll",
+        "price" : 10.0,
+        "category" : "Toys"
+      } ]
+    }, {
+      "id" : 1,
+      "lastName" : "Cantemir",
+      "firstName" : "Diana",
+      "city" : "Brasov",
+      "age" : 16,
+      "giftsPreferences" : [ "Toys", "Board Games" ],
+      "averageScore" : 3.0,
+      "niceScoreHistory" : [ 3.0 ],
+      "assignedBudget" : 47.625,
+      "receivedGifts" : [ {
+        "productName" : "Doll",
+        "price" : 10.0,
+        "category" : "Toys"
+      } ]
+    }, {
+      "id" : 2,
+      "lastName" : "Ionescu",
+      "firstName" : "Miruna",
+      "city" : "Oradea",
+      "age" : 17,
+      "giftsPreferences" : [ "Books", "Sweets" ],
+      "averageScore" : 6.0,
+      "niceScoreHistory" : [ 6.0 ],
+      "assignedBudget" : 95.25,
+      "receivedGifts" : [ {
+        "productName" : "Gummy Bears",
+        "price" : 10.0,
+        "category" : "Sweets"
+      } ]
+    } ]
+  }, {
+    "children" : [ {
+      "id" : 0,
+      "lastName" : "Popescu",
+      "firstName" : "Andreea",
+      "city" : "Braila",
+      "age" : 17,
+      "giftsPreferences" : [ "Clothes", "Toys" ],
+      "averageScore" : 7.0,
+      "niceScoreHistory" : [ 7.0 ],
+      "assignedBudget" : 87.5,
+      "receivedGifts" : [ {
+        "productName" : "Dress",
+        "price" : 45.0,
+        "category" : "Clothes"
+      }, {
+        "productName" : "Doll",
+        "price" : 10.0,
+        "category" : "Toys"
+      } ]
+    }, {
+      "id" : 1,
+      "lastName" : "Cantemir",
+      "firstName" : "Diana",
+      "city" : "Brasov",
+      "age" : 17,
+      "giftsPreferences" : [ "Toys", "Board Games" ],
+      "averageScore" : 3.0,
+      "niceScoreHistory" : [ 3.0 ],
+      "assignedBudget" : 37.5,
+      "receivedGifts" : [ {
+        "productName" : "Doll",
+        "price" : 10.0,
+        "category" : "Toys"
+      } ]
+    }, {
+      "id" : 2,
+      "lastName" : "Ionescu",
+      "firstName" : "Miruna",
+      "city" : "Oradea",
+      "age" : 18,
+      "giftsPreferences" : [ "Books", "Sweets" ],
+      "averageScore" : 6.0,
+      "niceScoreHistory" : [ 6.0 ],
+      "assignedBudget" : 75.0,
+      "receivedGifts" : [ {
+        "productName" : "Gummy Bears",
+        "price" : 10.0,
+        "category" : "Sweets"
+      } ]
+    } ]
+  }, {
+    "children" : [ {
+      "id" : 0,
+      "lastName" : "Popescu",
+      "firstName" : "Andreea",
+      "city" : "Braila",
+      "age" : 18,
+      "giftsPreferences" : [ "Clothes", "Toys" ],
+      "averageScore" : 7.0,
+      "niceScoreHistory" : [ 7.0 ],
+      "assignedBudget" : 109.89999999999999,
+      "receivedGifts" : [ {
+        "productName" : "Dress",
+        "price" : 45.0,
+        "category" : "Clothes"
+      }, {
+        "productName" : "Doll",
+        "price" : 10.0,
+        "category" : "Toys"
+      } ]
+    }, {
+      "id" : 1,
+      "lastName" : "Cantemir",
+      "firstName" : "Diana",
+      "city" : "Brasov",
+      "age" : 18,
+      "giftsPreferences" : [ "Toys", "Board Games" ],
+      "averageScore" : 3.0,
+      "niceScoreHistory" : [ 3.0 ],
+      "assignedBudget" : 47.099999999999994,
+      "receivedGifts" : [ {
+        "productName" : "Doll",
+        "price" : 10.0,
+        "category" : "Toys"
+      } ]
+    } ]
+  }, {
+    "children" : [ ]
   } ]
 }

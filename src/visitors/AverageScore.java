@@ -2,8 +2,9 @@ package visitors;
 
 import child.Child;
 import common.Constants;
+import santa.Santa;
 
-public class AverageScore implements ChildVisitor {
+public class AverageScore implements Visitor {
     /**
      * a
      * @param child b
@@ -23,17 +24,26 @@ public class AverageScore implements ChildVisitor {
             child.setAverageScore(score);
             return;
         }
-        if (child.getAge() < Constants.TEEN) {
+        if (child.getAge() <= Constants.TEEN) {
             double score = 0;
             int i = 1;
             int sum = 0;
             for (Double s : child.getNiceScoreHistory()) {
                 score += s * i;
-                i++;
                 sum += i;
+                i++;
             }
             score /= sum;
             child.setAverageScore(score);
         }
+    }
+
+    /**
+     *
+     * @param santa a
+     */
+    @Override
+    public void visit(final Santa santa) {
+        santa.getChildren().forEach(child -> child.accept(this));
     }
 }

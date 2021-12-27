@@ -10,6 +10,7 @@ import org.json.simple.JSONObject;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.util.ArrayList;
+import java.util.stream.Collectors;
 
 public class Writer {
     private final FileWriter file;
@@ -27,7 +28,9 @@ public class Writer {
     public void writeToFile(final ArrayList<Child> children) {
         JSONObject jsonObject = new JSONObject();
         JSONArray jsonChildren = new JSONArray();
-        jsonChildren.addAll(children);
+        ArrayList<Child> thisYearsChildren = (ArrayList<Child>)
+                children.stream().map(Child::new).collect(Collectors.toList());
+        jsonChildren.addAll(thisYearsChildren);
         jsonObject.put(Constants.CHILDREN, jsonChildren);
         annualChildren.add(jsonObject);
     }

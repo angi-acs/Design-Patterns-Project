@@ -1,18 +1,21 @@
 package main;
 
-import child.Child;
-import common.Constants;
-import fileio.Writer;
+import fileio.AnnualChange;
 import santa.Santa;
+import visitors.AnnualUpdate;
 import visitors.AssignedBudget;
+import visitors.AverageScore;
+import visitors.CheckAge;
+import visitors.IncreaseAge;
 import visitors.ReceivedGifts;
+import visitors.Visitor;
+
+import java.util.ArrayList;
 
 public class Simulation {
-    private final Writer writer;
     private final Santa santa;
 
-    public Simulation(final Santa santa, final Writer writer) {
-        this.writer = writer;
+    public Simulation(final Santa santa) {
         this.santa = santa;
     }
 
@@ -20,35 +23,43 @@ public class Simulation {
      * a
      */
     public void roundZero() {
-        checkAge();
+        ArrayList<Visitor> visitors = new ArrayList<>();
 
-        double averageScoreSum = 0;
-        for (Child child : santa.getChildren()) {
-            if (child.getAge() < Constants.BABY) {
-                child.setAverageScore(Constants.BABY_SCORE);
-            } else {
-                child.setAverageScore(child.getNiceScoreHistory().get(0));
-            }
-            averageScoreSum += child.getAverageScore();
-        }
+        CheckAge checkAge = new CheckAge();
+        visitors.add(checkAge);
+        AverageScore averageScore = new AverageScore();
+        visitors.add(averageScore);
+        AssignedBudget assignedBudget = new AssignedBudget();
+        visitors.add(assignedBudget);
+        ReceivedGifts receivedGifts = new ReceivedGifts();
+        visitors.add(receivedGifts);
 
-        double budgetUnit = santa.getBudget() / averageScoreSum;
+        visitors.forEach(santa::accept);
 
-        AssignedBudget assignedBudget = new AssignedBudget(budgetUnit);
-        ReceivedGifts receivedGifts = new ReceivedGifts(santa);
-
-        for (Child child : santa.getChildren()) {
-            child.accept(assignedBudget);
-            child.accept(receivedGifts);
-        }
-
-        writer.writeToFile(santa.getChildren());
+        santa.update();
     }
 
     /**
      * a
      */
-    public void checkAge() {
-        santa.getChildren().removeIf(child -> child.getAge() > Constants.TEEN);
+    public void round(final AnnualChange annualChange) {
+        ArrayList<Visitor> visitors = new ArrayList<>();
+
+        IncreaseAge increaseAge = new IncreaseAge();
+        visitors.add(increaseAge);
+        AnnualUpdate annualUpdate = new AnnualUpdate(annualChange);
+        visitors.add(annualUpdate);
+        CheckAge checkAge = new CheckAge();
+        visitors.add(checkAge);
+        AverageScore averageScore = new AverageScore();
+        visitors.add(averageScore);
+        AssignedBudget assignedBudget = new AssignedBudget();
+        visitors.add(assignedBudget);
+        ReceivedGifts receivedGifts = new ReceivedGifts();
+        visitors.add(receivedGifts);
+
+        visitors.forEach(santa::accept);
+
+        santa.update();
     }
 }

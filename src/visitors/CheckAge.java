@@ -6,8 +6,7 @@ import santa.Santa;
 
 public class CheckAge implements Visitor {
     /**
-     *
-     * @param child b
+     * Not used
      */
     @Override
     public void visit(final Child child) {
@@ -15,8 +14,7 @@ public class CheckAge implements Visitor {
     }
 
     /**
-     *
-     * @param santa a
+     * If a child is over 18, it's removed from Santa's children list
      */
     @Override
     public void visit(final Santa santa) {

@@ -20,7 +20,8 @@ public class Simulation {
     }
 
     /**
-     * a
+     * Initializes visitors needed for round zero
+     * Calls them in a specific order
      */
     public void roundZero() {
         ArrayList<Visitor> visitors = new ArrayList<>();
@@ -40,7 +41,9 @@ public class Simulation {
     }
 
     /**
-     * a
+     * Initializes visitors needed for rounds
+     * that contain annual changes
+     * Calls them in a specific order
      */
     public void round(final AnnualChange annualChange) {
         ArrayList<Visitor> visitors = new ArrayList<>();

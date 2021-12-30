@@ -23,8 +23,7 @@ public class Santa extends Observable implements Visitable {
     }
 
     /**
-     *
-     * @param visitor a
+     * Calls visitor's method
      */
     @Override
     public void accept(final Visitor visitor) {
@@ -32,16 +31,15 @@ public class Santa extends Observable implements Visitable {
     }
 
     /**
-     * a
+     * Method that calls the observers
      */
     public void update() {
         notifyObservers(children);
     }
 
     /**
-     * a
-     * @param id b
-     * @return c
+     * Method that returns an instance of a child based on the id field
+     * or null if the child does not belong to the list anymore
      */
     public Child getChildById(final int id) {
         for (Child child : children) {
@@ -51,5 +49,4 @@ public class Santa extends Observable implements Visitable {
         }
         return null;
     }
-
 }

@@ -25,37 +25,33 @@ public class InputReader {
     }
 
     /**
-     * a
-     * @return b
+     * Method that parses the JSON files' initialData object
+     * @return new instance of Santa whose fields are initialized
+     * by the test file (received as inputPath)
      */
     public Santa initialData() throws IOException, ParseException {
         JSONParser jsonParser = new JSONParser();
-        JSONObject jsonObject = (JSONObject) jsonParser
-                .parse(new FileReader(inputPath));
-        numberOfYears =  Integer.parseInt(jsonObject.get(Constants.YEARS)
-                .toString());
-        double santaBudget = Double.parseDouble(jsonObject.get(Constants.SANTA_BUDGET)
-                .toString());
+        JSONObject jsonObject = (JSONObject) jsonParser.parse(new FileReader(inputPath));
+        numberOfYears =  Integer.parseInt(jsonObject.get(Constants.YEARS).toString());
+        double santaBudget = Double.parseDouble(jsonObject.get(Constants.SANTA_BUDGET).toString());
+
         JSONObject initialData = (JSONObject) jsonObject.get(Constants.INITIAL_DATA);
-        JSONArray jsonChildren = (JSONArray)
-                initialData.get(Constants.CHILDREN);
-        JSONArray jsonGifts = (JSONArray)
-                initialData.get(Constants.SANTA_GIFTS);
+        JSONArray jsonChildren = (JSONArray) initialData.get(Constants.CHILDREN);
         ArrayList<Child> children = readChildren(jsonChildren);
+        JSONArray jsonGifts = (JSONArray) initialData.get(Constants.SANTA_GIFTS);
         ArrayList<Gift> gifts = readGifts(jsonGifts);
 
         return new Santa(santaBudget, children, gifts);
     }
 
     /**
-     * a
-     * @throws IOException b
-     * @throws ParseException c
+     * Method that parses the JSON files' annualChanges array
+     * @return a list containing all annual changes written in the test file
      */
     public ArrayList<AnnualChange> annualChanges() throws IOException, ParseException {
         JSONParser jsonParser = new JSONParser();
-        JSONObject jsonObject = (JSONObject) jsonParser
-                .parse(new FileReader(inputPath));
+        JSONObject jsonObject = (JSONObject) jsonParser.parse(new FileReader(inputPath));
+
         JSONArray jsonAnnualChanges = (JSONArray) jsonObject.get(Constants.ANNUAL_CHANGES);
         ArrayList<AnnualChange> annualChanges = new ArrayList<>();
         if (jsonAnnualChanges != null) {
@@ -64,9 +60,9 @@ public class InputReader {
                 double newSantaBudget = Double.parseDouble(((JSONObject) change)
                         .get(Constants.NEW_SANTA_BUDGET).toString());
                 JSONArray jsonNewGifts = (JSONArray) ((JSONObject) change).get(Constants.NEW_GIFTS);
+                ArrayList<Gift> newGifts = readGifts(jsonNewGifts);
                 JSONArray jsonNewChildren = (JSONArray) ((JSONObject) change)
                         .get(Constants.NEW_CHILDREN);
-                ArrayList<Gift> newGifts = readGifts(jsonNewGifts);
                 ArrayList<Child> newChildren = readChildren(jsonNewChildren);
 
                 JSONArray jsonChildrenUpdates = (JSONArray) ((JSONObject) change)
@@ -74,6 +70,7 @@ public class InputReader {
                 ArrayList<ChildUpdate> childrenUpdates = new ArrayList<>();
                 if (jsonChildrenUpdates != null) {
                     for (Object update : jsonChildrenUpdates) {
+
                         if (((JSONObject) update).get(Constants.NICE_SCORE) != null) {
                             childrenUpdates.add(new ChildUpdate(
                                     Integer.parseInt(((JSONObject) update).get(Constants.ID)
@@ -101,14 +98,16 @@ public class InputReader {
     }
 
     /**
-     *
-     * @param jsonChildren a
-     * @return b
+     * Method that parses the JSON files' children array
+     * (used in initialData and annualChanges)
+     * @return a list of children (each child's fields are
+     * initialized by the test file)
      */
     public static ArrayList<Child> readChildren(final JSONArray jsonChildren) {
         ArrayList<Child> children = new ArrayList<>();
         if (jsonChildren != null) {
             for (Object jsonChild : jsonChildren) {
+
                 children.add(new Child(
                         Integer.parseInt(((JSONObject) jsonChild).get(Constants.ID)
                                 .toString()),
@@ -128,14 +127,16 @@ public class InputReader {
     }
 
     /**
-     * a
-     * @param jsonGifts b
-     * @return c
+     * Method that parses the JSON files' gifts array
+     * (used in initialData and annualChanges)
+     * @return a list of gifts (each gift's fields are
+     * initialized by the test file)
      */
     public static ArrayList<Gift> readGifts(final JSONArray jsonGifts) {
         ArrayList<Gift> gifts = new ArrayList<>();
         if (jsonGifts != null) {
             for (Object jsonGift : jsonGifts) {
+
                 gifts.add(new Gift(
                         (String) ((JSONObject) jsonGift).get(Constants.PRODUCT_NAME),
                         Double.parseDouble(((JSONObject) jsonGift).get(Constants.PRICE)

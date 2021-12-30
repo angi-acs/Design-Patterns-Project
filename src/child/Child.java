@@ -34,8 +34,7 @@ public class Child implements Visitable {
     }
 
     /**
-     *
-     * @param visitor a
+     * Calls visitor's method
      */
     @Override
     public void accept(final Visitor visitor) {
@@ -55,5 +54,4 @@ public class Child implements Visitable {
         this.giftsPreferences = new ArrayList<>();
         this.giftsPreferences.addAll(child.getGiftsPreferences());
     }
-
 }

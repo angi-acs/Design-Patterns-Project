@@ -18,6 +18,7 @@ public class ChildUpdate {
         this.newGiftsPreferences = newGiftsPreferences;
     }
 
+    // constructor in case there is no update for niceScore
     public ChildUpdate(final int id, final ArrayList<String> newGiftsPreferences) {
         this.id = id;
         this.newNiceScore = Constants.NO_NEW_NICE_SCORE;

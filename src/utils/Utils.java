@@ -10,9 +10,7 @@ public final class Utils {
     }
 
     /**
-     * Transforms an array of JSON's into an array of strings
-     * @param array of JSONs
-     * @return a list of strings
+     * Transforms an array of JSONs into an array of strings
      */
     public static ArrayList<String> convertJSONArray(final JSONArray array) {
         if (array != null) {

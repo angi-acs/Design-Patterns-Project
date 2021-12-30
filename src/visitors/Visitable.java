@@ -2,8 +2,7 @@ package visitors;
 
 public interface Visitable {
     /**
-     *
-     * @param visitor a
+     * @param visitor to be accepted
      */
     void accept(Visitor visitor);
 }

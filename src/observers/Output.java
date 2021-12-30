@@ -13,8 +13,8 @@ public class Output implements Observer {
     }
 
     /**
-     * a
-     * @param arg b
+     * Calls the writer's method
+     * @param arg cast as a list of children
      */
     @SuppressWarnings("unchecked")
     @Override

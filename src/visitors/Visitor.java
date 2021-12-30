@@ -5,14 +5,13 @@ import santa.Santa;
 
 public interface Visitor {
     /**
-     * a
-     * @param child b
+     * @param child object to be visited
      */
     void visit(Child child);
 
     /**
      *
-     * @param santa a
+     * @param santa object to be visited
      */
     void visit(Santa santa);
 }

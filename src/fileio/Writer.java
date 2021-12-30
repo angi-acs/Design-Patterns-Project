@@ -21,8 +21,10 @@ public class Writer {
     }
 
     /**
-     * a
-     * @param children b
+     * Creates a deep copy of the list received as @param
+     * and adds it to the output JSONArray
+     * @param children Santa's list of children for the
+     *                 simulation's current year
      */
     @SuppressWarnings("unchecked")
     public void writeToFile(final ArrayList<Child> children) {
@@ -36,8 +38,7 @@ public class Writer {
     }
 
     /**
-     * writes to the file and close it
-     *
+     * Writes a JSONArray to the output file and closes it
      */
     @SuppressWarnings("unchecked")
     public void closeFile() throws IOException {

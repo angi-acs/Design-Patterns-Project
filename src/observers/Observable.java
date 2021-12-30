@@ -6,28 +6,24 @@ public class Observable {
     private final ArrayList<Observer> observers = new ArrayList<>();
 
     /**
-     * a
-     * @param o b
+     * @param o observer to be added to the list
      */
     public void addObserver(final Observer o) {
         observers.add(o);
     }
 
     /**
-     * a
-     * @param o b
+     * @param o observer to be removed from the list
      */
     public void removeObserver(final Observer o) {
         observers.remove(o);
     }
 
     /**
-     * a
-     * @param arg b
+     * Calls the update method for every observer from the list
+     * @param arg argument to be passed to the observer's update method
      */
     public void notifyObservers(final Object arg) {
-        for (Observer o : observers) {
-            o.update(arg);
-        }
+        observers.forEach(observer -> observer.update(arg));
     }
 }

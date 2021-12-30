@@ -6,8 +6,8 @@ import santa.Santa;
 
 public class AverageScore implements Visitor {
     /**
-     * a
-     * @param child b
+     * Computes and sets the average
+     * score based on the child's age
      */
     @Override
     public void visit(final Child child) {
@@ -30,8 +30,7 @@ public class AverageScore implements Visitor {
             int sum = 0;
             for (Double s : child.getNiceScoreHistory()) {
                 score += s * i;
-                sum += i;
-                i++;
+                sum += i++;
             }
             score /= sum;
             child.setAverageScore(score);
@@ -39,8 +38,7 @@ public class AverageScore implements Visitor {
     }
 
     /**
-     *
-     * @param santa a
+     * Calls the visitor for every child in Santa's list
      */
     @Override
     public void visit(final Santa santa) {

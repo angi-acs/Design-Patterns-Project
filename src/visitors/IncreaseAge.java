@@ -5,8 +5,7 @@ import santa.Santa;
 
 public class IncreaseAge implements Visitor {
     /**
-     *
-     * @param child b
+     * Increases the child's age by one and sets it
      */
     @Override
     public void visit(final Child child) {
@@ -15,8 +14,7 @@ public class IncreaseAge implements Visitor {
     }
 
     /**
-     *
-     * @param santa a
+     * Calls the visitor for every child in Santa's list
      */
     @Override
     public void visit(final Santa santa) {

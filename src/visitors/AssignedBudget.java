@@ -7,8 +7,7 @@ public class AssignedBudget implements Visitor {
     private double budgetUnit;
 
     /**
-     * a
-     * @param child b
+     * Sets the budget for the child received as @param
      */
     @Override
     public void visit(final Child child) {
@@ -16,8 +15,8 @@ public class AssignedBudget implements Visitor {
     }
 
     /**
-     *
-     * @param santa a
+     * Computes the budget unit based on the average score sum
+     * and calls the visitor for every child in Santa's list
      */
     @Override
     public void visit(final Santa santa) {

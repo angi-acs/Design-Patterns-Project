@@ -13,8 +13,7 @@ public class ReceivedGifts implements Visitor {
     private Santa santaClaus;
 
     /**
-     * a
-     * @param child b
+     * Computes what gifts should the child receive
      */
     @Override
     public void visit(final Child child) {
@@ -38,6 +37,8 @@ public class ReceivedGifts implements Visitor {
             possibleGifts = entry.getValue();
             if (!possibleGifts.isEmpty()) {
                 possibleGifts.sort(Comparator.comparingDouble(Gift::getPrice));
+                // only one gift per category
+                // after sorting, its position also indicates that it's the cheapest
                 Gift gift = possibleGifts.get(0);
                 if (budget > gift.getPrice()) {
                     receivedGifts.add(gift);
@@ -49,8 +50,7 @@ public class ReceivedGifts implements Visitor {
     }
 
     /**
-     *
-     * @param santa a
+     * Calls the visitor for every child in Santa's list
      */
     @Override
     public void visit(final Santa santa) {

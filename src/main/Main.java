@@ -23,10 +23,12 @@ import java.util.Objects;
 public final class Main {
 
     private Main() {
-        ///constructor for checkstyle
+        //constructor for checkstyle
     }
+
     /**
      * This method is used to call the checker which calculates the score
+     * and create the output files
      * @param args
      *          the arguments used to call the main method
      */
@@ -61,11 +63,9 @@ public final class Main {
     }
 
     /**
-     * a
-     * @param filePath1 b
-     * @param filePath2 c
-     * @throws IOException d
-     * @throws ParseException e
+     * Calls necessary methods for every test
+     * @param filePath1 test file
+     * @param filePath2 output file
      */
     public static void simulate(final String filePath1,
                                 final String filePath2) throws IOException, ParseException {
@@ -81,6 +81,9 @@ public final class Main {
         Output output = new Output(writer);
         santa.addObserver(output);
 
+        /*
+         * Initialize simulation
+         */
         Simulation simulation = new Simulation(santa);
         simulation.roundZero();
 

@@ -26,7 +26,6 @@ public class Writer {
      * @param children Santa's list of children for the
      *                 simulation's current year
      */
-    @SuppressWarnings("unchecked")
     public void writeToFile(final ArrayList<Child> children) {
         JSONObject jsonObject = new JSONObject();
         JSONArray jsonChildren = new JSONArray();
@@ -40,7 +39,6 @@ public class Writer {
     /**
      * Writes a JSONArray to the output file and closes it
      */
-    @SuppressWarnings("unchecked")
     public void closeFile() throws IOException {
         JSONObject object = new JSONObject();
         object.put(Constants.ANNUAL_CHILDREN, annualChildren);

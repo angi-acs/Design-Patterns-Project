@@ -1,15 +1,12 @@
 package santa;
 
 import child.Child;
-import lombok.Getter;
-import lombok.Setter;
 import observers.Observable;
 import visitors.Visitable;
 import visitors.Visitor;
 
 import java.util.ArrayList;
 
-@Getter @Setter
 public class Santa extends Observable implements Visitable {
     private double budget;
     private final ArrayList<Child> children;
@@ -48,5 +45,33 @@ public class Santa extends Observable implements Visitable {
             }
         }
         return null;
+    }
+
+    /**
+     * checkstyle
+     */
+    public double getBudget() {
+        return budget;
+    }
+
+    /**
+     * checkstyle
+     */
+    public void setBudget(final double budget) {
+        this.budget = budget;
+    }
+
+    /**
+     * checkstyle
+     */
+    public ArrayList<Child> getChildren() {
+        return children;
+    }
+
+    /**
+     * checkstyle
+     */
+    public ArrayList<Gift> getGifts() {
+        return gifts;
     }
 }

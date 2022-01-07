@@ -1,12 +1,10 @@
 package fileio;
 
 import child.Child;
-import lombok.Getter;
 import santa.Gift;
 
 import java.util.ArrayList;
 
-@Getter
 public class AnnualChange {
     private final double newSantaBudget;
     private final ArrayList<Gift> newGifts;
@@ -20,5 +18,33 @@ public class AnnualChange {
         this.newGifts = newGifts;
         this.newChildren = newChildren;
         this.childrenUpdates = childrenUpdates;
+    }
+
+    /**
+     * checkstyle
+     */
+    public double getNewSantaBudget() {
+        return newSantaBudget;
+    }
+
+    /**
+     * checkstyle
+     */
+    public ArrayList<Gift> getNewGifts() {
+        return newGifts;
+    }
+
+    /**
+     * checkstyle
+     */
+    public ArrayList<Child> getNewChildren() {
+        return newChildren;
+    }
+
+    /**
+     * checkstyle
+     */
+    public ArrayList<ChildUpdate> getChildrenUpdates() {
+        return childrenUpdates;
     }
 }

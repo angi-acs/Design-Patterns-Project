@@ -1,11 +1,9 @@
 package fileio;
 
 import common.Constants;
-import lombok.Getter;
 
 import java.util.ArrayList;
 
-@Getter
 public class ChildUpdate {
     private final int id;
     private final double newNiceScore;
@@ -23,5 +21,26 @@ public class ChildUpdate {
         this.id = id;
         this.newNiceScore = Constants.NO_NEW_NICE_SCORE;
         this.newGiftsPreferences = newGiftsPreferences;
+    }
+
+    /**
+     * checkstyle
+     */
+    public int getId() {
+        return id;
+    }
+
+    /**
+     * checkstyle
+     */
+    public double getNewNiceScore() {
+        return newNiceScore;
+    }
+
+    /**
+     * checkstyle
+     */
+    public ArrayList<String> getNewGiftsPreferences() {
+        return newGiftsPreferences;
     }
 }

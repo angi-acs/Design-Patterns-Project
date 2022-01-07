@@ -16,7 +16,6 @@ public class Output implements Observer {
      * Calls the writer's method
      * @param arg cast as a list of children
      */
-    @SuppressWarnings("unchecked")
     @Override
     public void update(final Object arg) {
         ArrayList<Child> children = (ArrayList<Child>) arg;

@@ -49,8 +49,14 @@ public final class Main {
 
         for (File file : Objects.requireNonNull(directory.listFiles())) {
 
+            int i;
             String s = file.getName();
-            int i = Integer.parseInt(s.replaceAll("[\\D]", ""));
+            try {
+                i = Integer.parseInt(s.replaceAll("[\\D]", ""));
+            } catch (NumberFormatException e) {
+                i = 0;
+            }
+
             String filepath = Constants.OUTPUT_PATH + i + Constants.FILE_EXTENSION;
             File out = new File(filepath);
             boolean isCreated = out.createNewFile();

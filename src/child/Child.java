@@ -1,14 +1,11 @@
 package child;
 
-import lombok.Getter;
-import lombok.Setter;
 import santa.Gift;
 import visitors.Visitable;
 import visitors.Visitor;
 
 import java.util.ArrayList;
 
-@Getter @Setter
 public class Child implements Visitable {
     private final int id;
     private final String lastName;
@@ -53,5 +50,117 @@ public class Child implements Visitable {
         this.receivedGifts = child.getReceivedGifts();
         this.giftsPreferences = new ArrayList<>();
         this.giftsPreferences.addAll(child.getGiftsPreferences());
+    }
+
+    /**
+     * checkstyle
+     */
+    public int getId() {
+        return id;
+    }
+
+    /**
+     * checkstyle
+     */
+    public String getLastName() {
+        return lastName;
+    }
+
+    /**
+     * checkstyle
+     */
+    public String getFirstName() {
+        return firstName;
+    }
+
+    /**
+     * checkstyle
+     */
+    public String getCity() {
+        return city;
+    }
+
+    /**
+     * checkstyle
+     */
+    public int getAge() {
+        return age;
+    }
+
+    /**
+     * checkstyle
+     */
+    public void setAge(final int age) {
+        this.age = age;
+    }
+
+    /**
+     * checkstyle
+     */
+    public ArrayList<String> getGiftsPreferences() {
+        return giftsPreferences;
+    }
+
+    /**
+     * checkstyle
+     */
+    public void setGiftsPreferences(final ArrayList<String> giftsPreferences) {
+        this.giftsPreferences = giftsPreferences;
+    }
+
+    /**
+     * checkstyle
+     */
+    public double getAverageScore() {
+        return averageScore;
+    }
+
+    /**
+     * checkstyle
+     */
+    public void setAverageScore(final double averageScore) {
+        this.averageScore = averageScore;
+    }
+
+    /**
+     * checkstyle
+     */
+    public ArrayList<Double> getNiceScoreHistory() {
+        return niceScoreHistory;
+    }
+
+    /**
+     * checkstyle
+     */
+    public void setNiceScoreHistory(final ArrayList<Double> niceScoreHistory) {
+        this.niceScoreHistory = niceScoreHistory;
+    }
+
+    /**
+     * checkstyle
+     */
+    public double getAssignedBudget() {
+        return assignedBudget;
+    }
+
+    /**
+     * checkstyle
+     */
+    public void setAssignedBudget(final double assignedBudget) {
+        this.assignedBudget = assignedBudget;
+    }
+
+    /**
+     * checkstyle
+     */
+    public ArrayList<Gift> getReceivedGifts() {
+        return receivedGifts;
+    }
+
+    /**
+     * checkstyle
+     */
+    public void setReceivedGifts(final ArrayList<Gift> receivedGifts) {
+        this.receivedGifts = receivedGifts;
     }
 }

@@ -5,7 +5,9 @@ import santa.Santa;
 import visitors.AnnualUpdate;
 import visitors.AssignedBudget;
 import visitors.AverageScore;
+import visitors.BonusScore;
 import visitors.CheckAge;
+import visitors.ElvenBudget;
 import visitors.IncreaseAge;
 import visitors.ReceivedGifts;
 import visitors.Visitor;
@@ -30,8 +32,12 @@ public class Simulation {
         visitors.add(checkAge);
         AverageScore averageScore = new AverageScore();
         visitors.add(averageScore);
+        BonusScore bonusScore = new BonusScore();
+        visitors.add(bonusScore);
         AssignedBudget assignedBudget = new AssignedBudget();
         visitors.add(assignedBudget);
+        ElvenBudget elvenBudget = new ElvenBudget();
+        visitors.add(elvenBudget);
         ReceivedGifts receivedGifts = new ReceivedGifts();
         visitors.add(receivedGifts);
 
@@ -56,8 +62,12 @@ public class Simulation {
         visitors.add(checkAge);
         AverageScore averageScore = new AverageScore();
         visitors.add(averageScore);
+        BonusScore bonusScore = new BonusScore();
+        visitors.add(bonusScore);
         AssignedBudget assignedBudget = new AssignedBudget();
         visitors.add(assignedBudget);
+        ElvenBudget elvenBudget = new ElvenBudget();
+        visitors.add(elvenBudget);
         ReceivedGifts receivedGifts = new ReceivedGifts();
         visitors.add(receivedGifts);
 

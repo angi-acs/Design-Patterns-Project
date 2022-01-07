@@ -38,16 +38,13 @@ public class AnnualUpdate implements Visitor {
         }
         if (!annualChange.getChildrenUpdates().isEmpty()) {
             for (ChildUpdate childUpdate : annualChange.getChildrenUpdates()) {
+                Child child = santa.getChildById(childUpdate.getId());
+                if (child != null) {
 
-                if (childUpdate.getNewNiceScore() != Constants.NO_NEW_NICE_SCORE) {
-                    Child child = santa.getChildById(childUpdate.getId());
-                    if (child != null) {
+                    if (childUpdate.getNewNiceScore() != Constants.NO_NEW_NICE_SCORE) {
                         child.getNiceScoreHistory().add(childUpdate.getNewNiceScore());
                     }
-                }
-                if (!childUpdate.getNewGiftsPreferences().isEmpty()) {
-                    Child child = santa.getChildById(childUpdate.getId());
-                    if (child != null) {
+                    if (!childUpdate.getNewGiftsPreferences().isEmpty()) {
                         // LinkedHashSet cannot contain duplicates
                         LinkedHashSet<String> newGiftsPreferences = new LinkedHashSet<>();
                         for (String category : childUpdate.getNewGiftsPreferences()) {
@@ -57,6 +54,7 @@ public class AnnualUpdate implements Visitor {
                         // adds at the beginning of the list
                         child.getGiftsPreferences().addAll(0, newGiftsPreferences);
                     }
+                    child.setElf(childUpdate.getElf());
                 }
             }
         }

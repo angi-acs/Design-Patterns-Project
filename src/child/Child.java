@@ -1,5 +1,6 @@
 package child;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import santa.Gift;
 import visitors.Visitable;
 import visitors.Visitor;
@@ -17,9 +18,14 @@ public class Child implements Visitable {
     private ArrayList<Double> niceScoreHistory;
     private double assignedBudget;
     private ArrayList<Gift> receivedGifts;
+    @JsonIgnore
+    private final Integer niceScoreBonus;
+    @JsonIgnore
+    private String elf;
 
     public Child(final int id, final String lastName, final String firstName, final String city,
-                 final int age, final ArrayList<String> giftsPreferences, final double niceScore) {
+                 final int age, final ArrayList<String> giftsPreferences, final double niceScore,
+                 final Integer niceScoreBonus, final String elf) {
         this.id = id;
         this.lastName = lastName;
         this.firstName = firstName;
@@ -28,6 +34,8 @@ public class Child implements Visitable {
         this.giftsPreferences = giftsPreferences;
         this.niceScoreHistory = new ArrayList<>();
         this.niceScoreHistory.add(niceScore);
+        this.niceScoreBonus = niceScoreBonus;
+        this.elf = elf;
     }
 
     /**
@@ -42,7 +50,7 @@ public class Child implements Visitable {
     public Child(final Child child) {
         this(child.getId(), child.getLastName(), child.getFirstName(),
                 child.getCity(), child.getAge(), child.getGiftsPreferences(),
-                child.getAverageScore());
+                child.getAverageScore(), child.getNiceScoreBonus(), child.getElf());
         this.averageScore = child.getAverageScore();
         this.niceScoreHistory = new ArrayList<>();
         this.niceScoreHistory.addAll(child.getNiceScoreHistory());
@@ -162,5 +170,26 @@ public class Child implements Visitable {
      */
     public void setReceivedGifts(final ArrayList<Gift> receivedGifts) {
         this.receivedGifts = receivedGifts;
+    }
+
+    /**
+     * checkstyle
+     */
+    public Integer getNiceScoreBonus() {
+        return niceScoreBonus;
+    }
+
+    /**
+     * checkstyle
+     */
+    public String getElf() {
+        return elf;
+    }
+
+    /**
+     * checkstyle
+     */
+    public void setElf(final String elf) {
+        this.elf = elf;
     }
 }

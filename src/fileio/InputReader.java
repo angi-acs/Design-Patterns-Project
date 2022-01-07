@@ -88,14 +88,16 @@ public class InputReader {
                                         Double.parseDouble(((JSONObject) update)
                                                 .get(Constants.NICE_SCORE).toString()),
                                         Utils.convertJSONArray((JSONArray) ((JSONObject) update)
-                                                .get(Constants.GIFTS_PREFERENCES))
+                                                .get(Constants.GIFTS_PREFERENCES)),
+                                        (String) ((JSONObject) update).get(Constants.ELF)
                                 ));
                             } else {
                                 childrenUpdates.add(new ChildUpdate(
                                         Integer.parseInt(((JSONObject) update).get(Constants.ID)
                                                 .toString()),
                                         Utils.convertJSONArray((JSONArray) ((JSONObject) update)
-                                                .get(Constants.GIFTS_PREFERENCES))
+                                                .get(Constants.GIFTS_PREFERENCES)),
+                                        (String) ((JSONObject) update).get(Constants.ELF)
                                 ));
                             }
                         }
@@ -133,7 +135,10 @@ public class InputReader {
                         Utils.convertJSONArray((JSONArray) ((JSONObject) jsonChild)
                                 .get(Constants.GIFTS_PREFERENCES)),
                         Double.parseDouble(((JSONObject) jsonChild).get(Constants.NICE_SCORE)
-                                .toString())
+                                .toString()),
+                        Integer.parseInt(((JSONObject) jsonChild).get(Constants.NICE_SCORE_BONUS)
+                                .toString()),
+                        (String) ((JSONObject) jsonChild).get(Constants.ELF)
                 ));
             }
         }
@@ -155,7 +160,9 @@ public class InputReader {
                         (String) ((JSONObject) jsonGift).get(Constants.PRODUCT_NAME),
                         Double.parseDouble(((JSONObject) jsonGift).get(Constants.PRICE)
                                 .toString()),
-                        (String) ((JSONObject) jsonGift).get(Constants.CATEGORY)
+                        (String) ((JSONObject) jsonGift).get(Constants.CATEGORY),
+                        Integer.parseInt(((JSONObject) jsonGift).get(Constants.QUANTITY)
+                                .toString())
                 ));
             }
         }

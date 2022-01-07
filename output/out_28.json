@@ -7,9 +7,9 @@
       "city" : "Timisoara",
       "age" : 11,
       "giftsPreferences" : [ "Toys", "Board Games", "Sweets" ],
-      "averageScore" : 8.0,
+      "averageScore" : 10.4,
       "niceScoreHistory" : [ 8.0 ],
-      "assignedBudget" : 135.48387096774192,
+      "assignedBudget" : 94.37037037037038,
       "receivedGifts" : [ {
         "productName" : "Doll",
         "price" : 10.0,
@@ -30,9 +30,9 @@
       "city" : "Timisoara",
       "age" : 1,
       "giftsPreferences" : [ "Books", "Clothes" ],
-      "averageScore" : 10.0,
+      "averageScore" : 14.0,
       "niceScoreHistory" : [ 5.0 ],
-      "assignedBudget" : 169.3548387096774,
+      "assignedBudget" : 127.03703703703704,
       "receivedGifts" : [ {
         "productName" : "Twilight",
         "price" : 30.0,
@@ -49,9 +49,9 @@
       "city" : "Constanta",
       "age" : 3,
       "giftsPreferences" : [ "Toys", "Clothes" ],
-      "averageScore" : 10.0,
+      "averageScore" : 11.0,
       "niceScoreHistory" : [ 4.0 ],
-      "assignedBudget" : 169.3548387096774,
+      "assignedBudget" : 142.5925925925926,
       "receivedGifts" : [ {
         "productName" : "Doll",
         "price" : 10.0,
@@ -68,9 +68,9 @@
       "city" : "Oradea",
       "age" : 8,
       "giftsPreferences" : [ "Books", "Clothes" ],
-      "averageScore" : 3.0,
+      "averageScore" : 5.1,
       "niceScoreHistory" : [ 3.0 ],
-      "assignedBudget" : 50.80645161290322,
+      "assignedBudget" : 46.27777777777778,
       "receivedGifts" : [ {
         "productName" : "Twilight",
         "price" : 30.0,
@@ -85,17 +85,17 @@
       "city" : "Timisoara",
       "age" : 12,
       "giftsPreferences" : [ "Clothes", "Sweets", "Technology", "Toys", "Board Games" ],
-      "averageScore" : 8.666666666666666,
+      "averageScore" : 11.266666666666666,
       "niceScoreHistory" : [ 8.0, 9.0 ],
-      "assignedBudget" : 148.72538860103626,
+      "assignedBudget" : 147.3162258191867,
       "receivedGifts" : [ {
-        "productName" : "Dress",
-        "price" : 45.0,
-        "category" : "Clothes"
-      }, {
         "productName" : "Bag of Candy",
         "price" : 20.0,
         "category" : "Sweets"
+      }, {
+        "productName" : "Headphones",
+        "price" : 100.0,
+        "category" : "Technology"
       }, {
         "productName" : "Doll",
         "price" : 10.0,
@@ -112,16 +112,16 @@
       "city" : "Timisoara",
       "age" : 2,
       "giftsPreferences" : [ "Books", "Clothes" ],
-      "averageScore" : 10.0,
+      "averageScore" : 14.0,
       "niceScoreHistory" : [ 5.0, 7.0 ],
-      "assignedBudget" : 171.60621761658032,
+      "assignedBudget" : 237.9723647848401,
       "receivedGifts" : [ {
-        "productName" : "Twilight",
-        "price" : 30.0,
+        "productName" : "Harry Potter",
+        "price" : 35.0,
         "category" : "Books"
       }, {
-        "productName" : "Dress",
-        "price" : 45.0,
+        "productName" : "Handbag",
+        "price" : 200.0,
         "category" : "Clothes"
       } ]
     }, {
@@ -131,17 +131,13 @@
       "city" : "Constanta",
       "age" : 4,
       "giftsPreferences" : [ "Toys", "Clothes" ],
-      "averageScore" : 10.0,
+      "averageScore" : 11.0,
       "niceScoreHistory" : [ 4.0 ],
-      "assignedBudget" : 171.60621761658032,
+      "assignedBudget" : 143.82945124358466,
       "receivedGifts" : [ {
         "productName" : "Doll",
         "price" : 10.0,
         "category" : "Toys"
-      }, {
-        "productName" : "Dress",
-        "price" : 45.0,
-        "category" : "Clothes"
       } ]
     }, {
       "id" : 4,
@@ -150,9 +146,9 @@
       "city" : "Oradea",
       "age" : 9,
       "giftsPreferences" : [ "Toys", "Sweets", "Books", "Clothes" ],
-      "averageScore" : 3.5,
+      "averageScore" : 5.95,
       "niceScoreHistory" : [ 3.0, 4.0 ],
-      "assignedBudget" : 60.06217616580311,
+      "assignedBudget" : 77.7986577181208,
       "receivedGifts" : [ {
         "productName" : "Doll",
         "price" : 10.0,
@@ -162,8 +158,8 @@
         "price" : 20.0,
         "category" : "Sweets"
       }, {
-        "productName" : "Twilight",
-        "price" : 30.0,
+        "productName" : "Harry Potter",
+        "price" : 35.0,
         "category" : "Books"
       } ]
     } ]
@@ -175,9 +171,9 @@
       "city" : "Timisoara",
       "age" : 13,
       "giftsPreferences" : [ "Board Games", "Sweets", "Technology", "Clothes", "Toys" ],
-      "averageScore" : 8.666666666666666,
+      "averageScore" : 11.266666666666666,
       "niceScoreHistory" : [ 8.0, 9.0 ],
-      "assignedBudget" : 107.05882352941177,
+      "assignedBudget" : 116.3606557377049,
       "receivedGifts" : [ {
         "productName" : "Uno",
         "price" : 10.0,
@@ -186,10 +182,6 @@
         "productName" : "Bag of Candy",
         "price" : 20.0,
         "category" : "Sweets"
-      }, {
-        "productName" : "Dress",
-        "price" : 45.0,
-        "category" : "Clothes"
       }, {
         "productName" : "Doll",
         "price" : 10.0,
@@ -202,17 +194,13 @@
       "city" : "Timisoara",
       "age" : 3,
       "giftsPreferences" : [ "Books", "Clothes" ],
-      "averageScore" : 10.0,
+      "averageScore" : 14.0,
       "niceScoreHistory" : [ 5.0, 7.0, 4.0 ],
-      "assignedBudget" : 123.52941176470588,
+      "assignedBudget" : 144.59016393442622,
       "receivedGifts" : [ {
-        "productName" : "Twilight",
-        "price" : 30.0,
+        "productName" : "Harry Potter",
+        "price" : 35.0,
         "category" : "Books"
-      }, {
-        "productName" : "Dress",
-        "price" : 45.0,
-        "category" : "Clothes"
       } ]
     }, {
       "id" : 3,
@@ -221,17 +209,13 @@
       "city" : "Constanta",
       "age" : 5,
       "giftsPreferences" : [ "Toys", "Clothes" ],
-      "averageScore" : 4.5,
+      "averageScore" : 4.95,
       "niceScoreHistory" : [ 4.0, 5.0 ],
-      "assignedBudget" : 55.58823529411765,
+      "assignedBudget" : 39.32534678436318,
       "receivedGifts" : [ {
-        "productName" : "Doll",
-        "price" : 10.0,
+        "productName" : "Castle",
+        "price" : 15.0,
         "category" : "Toys"
-      }, {
-        "productName" : "Dress",
-        "price" : 45.0,
-        "category" : "Clothes"
       } ]
     }, {
       "id" : 4,
@@ -240,12 +224,12 @@
       "city" : "Oradea",
       "age" : 10,
       "giftsPreferences" : [ "Toys", "Sweets", "Books", "Clothes" ],
-      "averageScore" : 4.333333333333333,
+      "averageScore" : 7.366666666666666,
       "niceScoreHistory" : [ 3.0, 4.0, 6.0 ],
-      "assignedBudget" : 53.529411764705884,
+      "assignedBudget" : 58.52459016393443,
       "receivedGifts" : [ {
-        "productName" : "Doll",
-        "price" : 10.0,
+        "productName" : "Castle",
+        "price" : 15.0,
         "category" : "Toys"
       }, {
         "productName" : "Bag of Candy",
@@ -259,14 +243,10 @@
       "city" : "Constanta",
       "age" : 15,
       "giftsPreferences" : [ "Clothes" ],
-      "averageScore" : 5.0,
+      "averageScore" : 9.5,
       "niceScoreHistory" : [ 5.0 ],
-      "assignedBudget" : 61.76470588235294,
-      "receivedGifts" : [ {
-        "productName" : "Dress",
-        "price" : 45.0,
-        "category" : "Clothes"
-      } ]
+      "assignedBudget" : 75.47288776796974,
+      "receivedGifts" : [ ]
     }, {
       "id" : 6,
       "lastName" : "Popa",
@@ -274,17 +254,21 @@
       "city" : "Bucuresti",
       "age" : 13,
       "giftsPreferences" : [ "Toys", "Books", "Technology", "Sweets" ],
-      "averageScore" : 10.0,
+      "averageScore" : 19.0,
       "niceScoreHistory" : [ 10.0 ],
-      "assignedBudget" : 123.52941176470588,
+      "assignedBudget" : 196.22950819672133,
       "receivedGifts" : [ {
-        "productName" : "Doll",
-        "price" : 10.0,
+        "productName" : "Bike",
+        "price" : 25.0,
         "category" : "Toys"
       }, {
-        "productName" : "Twilight",
-        "price" : 30.0,
+        "productName" : "Harry Potter",
+        "price" : 35.0,
         "category" : "Books"
+      }, {
+        "productName" : "Headphones",
+        "price" : 100.0,
+        "category" : "Technology"
       }, {
         "productName" : "Bag of Candy",
         "price" : 20.0,
@@ -299,16 +283,16 @@
       "city" : "Timisoara",
       "age" : 14,
       "giftsPreferences" : [ "Toys", "Books", "Board Games", "Sweets", "Technology", "Clothes" ],
-      "averageScore" : 7.333333333333333,
+      "averageScore" : 9.533333333333333,
       "niceScoreHistory" : [ 8.0, 9.0, 6.0 ],
-      "assignedBudget" : 93.71196754563896,
+      "assignedBudget" : 101.3341985723556,
       "receivedGifts" : [ {
-        "productName" : "Doll",
-        "price" : 10.0,
+        "productName" : "Bike",
+        "price" : 25.0,
         "category" : "Toys"
       }, {
-        "productName" : "Twilight",
-        "price" : 30.0,
+        "productName" : "Harry Potter",
+        "price" : 35.0,
         "category" : "Books"
       }, {
         "productName" : "Uno",
@@ -326,21 +310,17 @@
       "city" : "Timisoara",
       "age" : 4,
       "giftsPreferences" : [ "Toys", "Clothes", "Technology", "Books" ],
-      "averageScore" : 10.0,
+      "averageScore" : 14.0,
       "niceScoreHistory" : [ 5.0, 7.0, 4.0 ],
-      "assignedBudget" : 127.78904665314403,
+      "assignedBudget" : 148.81245944192082,
       "receivedGifts" : [ {
-        "productName" : "Doll",
-        "price" : 10.0,
+        "productName" : "Bike",
+        "price" : 25.0,
         "category" : "Toys"
       }, {
-        "productName" : "Dress",
-        "price" : 45.0,
-        "category" : "Clothes"
-      }, {
-        "productName" : "Twilight",
-        "price" : 30.0,
-        "category" : "Books"
+        "productName" : "Headphones",
+        "price" : 100.0,
+        "category" : "Technology"
       } ]
     }, {
       "id" : 3,
@@ -349,17 +329,13 @@
       "city" : "Constanta",
       "age" : 6,
       "giftsPreferences" : [ "Toys", "Clothes", "Technology" ],
-      "averageScore" : 4.5,
+      "averageScore" : 4.95,
       "niceScoreHistory" : [ 4.0, 5.0 ],
-      "assignedBudget" : 57.50507099391481,
+      "assignedBudget" : 52.61583387410772,
       "receivedGifts" : [ {
-        "productName" : "Doll",
-        "price" : 10.0,
+        "productName" : "Bike",
+        "price" : 25.0,
         "category" : "Toys"
-      }, {
-        "productName" : "Dress",
-        "price" : 45.0,
-        "category" : "Clothes"
       } ]
     }, {
       "id" : 4,
@@ -368,16 +344,16 @@
       "city" : "Oradea",
       "age" : 11,
       "giftsPreferences" : [ "Toys", "Sweets", "Books", "Clothes" ],
-      "averageScore" : 4.25,
+      "averageScore" : 7.225,
       "niceScoreHistory" : [ 3.0, 4.0, 6.0, 4.0 ],
-      "assignedBudget" : 54.31034482758621,
+      "assignedBudget" : 76.79785853341986,
       "receivedGifts" : [ {
-        "productName" : "Doll",
-        "price" : 10.0,
+        "productName" : "Bike",
+        "price" : 25.0,
         "category" : "Toys"
       }, {
-        "productName" : "Bag of Candy",
-        "price" : 20.0,
+        "productName" : "Milk and Cookies",
+        "price" : 30.0,
         "category" : "Sweets"
       } ]
     }, {
@@ -387,16 +363,16 @@
       "city" : "Constanta",
       "age" : 16,
       "giftsPreferences" : [ "Toys", "Books", "Clothes" ],
-      "averageScore" : 5.0,
+      "averageScore" : 9.5,
       "niceScoreHistory" : [ 5.0 ],
-      "assignedBudget" : 63.89452332657201,
+      "assignedBudget" : 77.67683322517846,
       "receivedGifts" : [ {
-        "productName" : "Doll",
-        "price" : 10.0,
+        "productName" : "Lego",
+        "price" : 30.0,
         "category" : "Toys"
       }, {
-        "productName" : "Twilight",
-        "price" : 30.0,
+        "productName" : "Harry Potter",
+        "price" : 35.0,
         "category" : "Books"
       } ]
     }, {
@@ -406,21 +382,17 @@
       "city" : "Bucuresti",
       "age" : 14,
       "giftsPreferences" : [ "Toys", "Books", "Technology", "Sweets" ],
-      "averageScore" : 10.0,
+      "averageScore" : 19.0,
       "niceScoreHistory" : [ 10.0 ],
-      "assignedBudget" : 127.78904665314403,
+      "assignedBudget" : 108.74756651524984,
       "receivedGifts" : [ {
-        "productName" : "Doll",
-        "price" : 10.0,
+        "productName" : "Lego",
+        "price" : 30.0,
         "category" : "Toys"
       }, {
-        "productName" : "Twilight",
-        "price" : 30.0,
+        "productName" : "Harry Potter",
+        "price" : 35.0,
         "category" : "Books"
-      }, {
-        "productName" : "Bag of Candy",
-        "price" : 20.0,
-        "category" : "Sweets"
       } ]
     } ]
   }, {
@@ -431,25 +403,17 @@
       "city" : "Timisoara",
       "age" : 15,
       "giftsPreferences" : [ "Toys", "Books", "Board Games", "Sweets", "Technology", "Clothes" ],
-      "averageScore" : 6.8,
+      "averageScore" : 8.84,
       "niceScoreHistory" : [ 8.0, 9.0, 6.0, 6.0 ],
-      "assignedBudget" : 99.27758007117437,
+      "assignedBudget" : 56.251429204520264,
       "receivedGifts" : [ {
-        "productName" : "Doll",
-        "price" : 10.0,
-        "category" : "Toys"
-      }, {
-        "productName" : "Twilight",
+        "productName" : "Lego",
         "price" : 30.0,
-        "category" : "Books"
+        "category" : "Toys"
       }, {
         "productName" : "Uno",
         "price" : 10.0,
         "category" : "Board Games"
-      }, {
-        "productName" : "Bag of Candy",
-        "price" : 20.0,
-        "category" : "Sweets"
       } ]
     }, {
       "id" : 1,
@@ -458,21 +422,17 @@
       "city" : "Timisoara",
       "age" : 5,
       "giftsPreferences" : [ "Books", "Board Games", "Toys", "Clothes", "Technology" ],
-      "averageScore" : 5.333333333333333,
+      "averageScore" : 7.466666666666667,
       "niceScoreHistory" : [ 5.0, 7.0, 4.0 ],
-      "assignedBudget" : 77.86476868327401,
+      "assignedBudget" : 67.87502769776202,
       "receivedGifts" : [ {
-        "productName" : "Twilight",
-        "price" : 30.0,
+        "productName" : "Harry Potter",
+        "price" : 35.0,
         "category" : "Books"
       }, {
         "productName" : "Uno",
         "price" : 10.0,
         "category" : "Board Games"
-      }, {
-        "productName" : "Doll",
-        "price" : 10.0,
-        "category" : "Toys"
       } ]
     }, {
       "id" : 3,
@@ -481,17 +441,13 @@
       "city" : "Constanta",
       "age" : 7,
       "giftsPreferences" : [ "Toys", "Clothes", "Technology" ],
-      "averageScore" : 4.333333333333333,
+      "averageScore" : 4.766666666666667,
       "niceScoreHistory" : [ 4.0, 5.0, 4.0 ],
-      "assignedBudget" : 63.265124555160135,
+      "assignedBudget" : 56.33021271881231,
       "receivedGifts" : [ {
-        "productName" : "Doll",
-        "price" : 10.0,
+        "productName" : "Lego",
+        "price" : 30.0,
         "category" : "Toys"
-      }, {
-        "productName" : "Dress",
-        "price" : 45.0,
-        "category" : "Clothes"
       } ]
     }, {
       "id" : 4,
@@ -500,16 +456,12 @@
       "city" : "Oradea",
       "age" : 12,
       "giftsPreferences" : [ "Clothes", "Toys", "Sweets", "Books" ],
-      "averageScore" : 4.0,
+      "averageScore" : 6.8,
       "niceScoreHistory" : [ 3.0, 4.0, 6.0, 4.0, 3.0 ],
-      "assignedBudget" : 58.39857651245551,
+      "assignedBudget" : 43.270330157323286,
       "receivedGifts" : [ {
-        "productName" : "Dress",
-        "price" : 45.0,
-        "category" : "Clothes"
-      }, {
-        "productName" : "Doll",
-        "price" : 10.0,
+        "productName" : "Lego",
+        "price" : 30.0,
         "category" : "Toys"
       } ]
     }, {
@@ -519,16 +471,16 @@
       "city" : "Constanta",
       "age" : 17,
       "giftsPreferences" : [ "Toys", "Books", "Clothes" ],
-      "averageScore" : 7.0,
+      "averageScore" : 13.3,
       "niceScoreHistory" : [ 5.0, 8.0 ],
-      "assignedBudget" : 102.19750889679715,
+      "assignedBudget" : 120.9023930866386,
       "receivedGifts" : [ {
-        "productName" : "Doll",
-        "price" : 10.0,
+        "productName" : "Lego",
+        "price" : 30.0,
         "category" : "Toys"
       }, {
-        "productName" : "Twilight",
-        "price" : 30.0,
+        "productName" : "Harry Potter",
+        "price" : 35.0,
         "category" : "Books"
       }, {
         "productName" : "Dress",
@@ -542,29 +494,21 @@
       "city" : "Bucuresti",
       "age" : 15,
       "giftsPreferences" : [ "Books", "Toys", "Clothes", "Board Games", "Technology", "Sweets" ],
-      "averageScore" : 10.0,
+      "averageScore" : 19.0,
       "niceScoreHistory" : [ 10.0 ],
-      "assignedBudget" : 145.99644128113877,
+      "assignedBudget" : 224.5330157323288,
       "receivedGifts" : [ {
-        "productName" : "Twilight",
+        "productName" : "Lego",
         "price" : 30.0,
-        "category" : "Books"
-      }, {
-        "productName" : "Doll",
-        "price" : 10.0,
         "category" : "Toys"
       }, {
         "productName" : "Dress",
         "price" : 45.0,
         "category" : "Clothes"
       }, {
-        "productName" : "Uno",
-        "price" : 10.0,
-        "category" : "Board Games"
-      }, {
-        "productName" : "Bag of Candy",
-        "price" : 20.0,
-        "category" : "Sweets"
+        "productName" : "Headphones",
+        "price" : 100.0,
+        "category" : "Technology"
       } ]
     } ]
   }, {
@@ -575,25 +519,17 @@
       "city" : "Timisoara",
       "age" : 16,
       "giftsPreferences" : [ "Toys", "Books", "Board Games", "Sweets", "Technology", "Clothes" ],
-      "averageScore" : 6.533333333333333,
+      "averageScore" : 8.493333333333332,
       "niceScoreHistory" : [ 8.0, 9.0, 6.0, 6.0, 6.0 ],
-      "assignedBudget" : 112.79325627878681,
+      "assignedBudget" : 66.92504688890023,
       "receivedGifts" : [ {
-        "productName" : "Doll",
-        "price" : 10.0,
+        "productName" : "Lego",
+        "price" : 30.0,
         "category" : "Toys"
       }, {
-        "productName" : "Twilight",
+        "productName" : "Monopoly",
         "price" : 30.0,
-        "category" : "Books"
-      }, {
-        "productName" : "Uno",
-        "price" : 10.0,
         "category" : "Board Games"
-      }, {
-        "productName" : "Bag of Candy",
-        "price" : 20.0,
-        "category" : "Sweets"
       } ]
     }, {
       "id" : 1,
@@ -602,20 +538,12 @@
       "city" : "Timisoara",
       "age" : 6,
       "giftsPreferences" : [ "Books", "Toys", "Technology", "Board Games", "Clothes" ],
-      "averageScore" : 5.333333333333333,
+      "averageScore" : 7.466666666666667,
       "niceScoreHistory" : [ 5.0, 7.0, 4.0 ],
-      "assignedBudget" : 92.07612757451984,
+      "assignedBudget" : 84.05029436596575,
       "receivedGifts" : [ {
-        "productName" : "Twilight",
+        "productName" : "Monopoly",
         "price" : 30.0,
-        "category" : "Books"
-      }, {
-        "productName" : "Doll",
-        "price" : 10.0,
-        "category" : "Toys"
-      }, {
-        "productName" : "Uno",
-        "price" : 10.0,
         "category" : "Board Games"
       } ]
     }, {
@@ -625,18 +553,10 @@
       "city" : "Constanta",
       "age" : 8,
       "giftsPreferences" : [ "Toys", "Clothes", "Technology" ],
-      "averageScore" : 4.5,
+      "averageScore" : 4.95,
       "niceScoreHistory" : [ 4.0, 5.0, 4.0, 5.0 ],
-      "assignedBudget" : 77.68923264100113,
-      "receivedGifts" : [ {
-        "productName" : "Doll",
-        "price" : 10.0,
-        "category" : "Toys"
-      }, {
-        "productName" : "Dress",
-        "price" : 45.0,
-        "category" : "Clothes"
-      } ]
+      "assignedBudget" : 39.004589729205975,
+      "receivedGifts" : [ ]
     }, {
       "id" : 4,
       "lastName" : "Ionescu",
@@ -644,21 +564,13 @@
       "city" : "Oradea",
       "age" : 13,
       "giftsPreferences" : [ "Books", "Board Games", "Clothes", "Toys", "Sweets" ],
-      "averageScore" : 5.428571428571429,
+      "averageScore" : 9.228571428571428,
       "niceScoreHistory" : [ 3.0, 4.0, 6.0, 4.0, 3.0, 9.0 ],
-      "assignedBudget" : 93.72034413835057,
+      "assignedBudget" : 103.88359086813878,
       "receivedGifts" : [ {
-        "productName" : "Twilight",
+        "productName" : "Monopoly",
         "price" : 30.0,
-        "category" : "Books"
-      }, {
-        "productName" : "Uno",
-        "price" : 10.0,
         "category" : "Board Games"
-      }, {
-        "productName" : "Dress",
-        "price" : 45.0,
-        "category" : "Clothes"
       } ]
     }, {
       "id" : 5,
@@ -667,21 +579,13 @@
       "city" : "Constanta",
       "age" : 18,
       "giftsPreferences" : [ "Toys", "Board Games", "Books", "Clothes" ],
-      "averageScore" : 4.0,
+      "averageScore" : 7.6,
       "niceScoreHistory" : [ 5.0, 8.0, 1.0 ],
-      "assignedBudget" : 69.05709568088989,
+      "assignedBudget" : 59.88583473575059,
       "receivedGifts" : [ {
-        "productName" : "Doll",
-        "price" : 10.0,
-        "category" : "Toys"
-      }, {
-        "productName" : "Uno",
-        "price" : 10.0,
-        "category" : "Board Games"
-      }, {
-        "productName" : "Twilight",
+        "productName" : "Monopoly",
         "price" : 30.0,
-        "category" : "Books"
+        "category" : "Board Games"
       } ]
     }, {
       "id" : 6,
@@ -690,29 +594,17 @@
       "city" : "Bucuresti",
       "age" : 16,
       "giftsPreferences" : [ "Toys", "Books", "Clothes", "Board Games", "Technology", "Sweets" ],
-      "averageScore" : 10.0,
+      "averageScore" : 19.0,
       "niceScoreHistory" : [ 10.0 ],
-      "assignedBudget" : 172.64273920222473,
+      "assignedBudget" : 149.71458683937652,
       "receivedGifts" : [ {
-        "productName" : "Doll",
-        "price" : 10.0,
-        "category" : "Toys"
-      }, {
-        "productName" : "Twilight",
+        "productName" : "Monopoly",
         "price" : 30.0,
-        "category" : "Books"
-      }, {
-        "productName" : "Dress",
-        "price" : 45.0,
-        "category" : "Clothes"
-      }, {
-        "productName" : "Uno",
-        "price" : 10.0,
         "category" : "Board Games"
       }, {
-        "productName" : "Bag of Candy",
-        "price" : 20.0,
-        "category" : "Sweets"
+        "productName" : "Headphones",
+        "price" : 100.0,
+        "category" : "Technology"
       } ]
     }, {
       "id" : 7,
@@ -721,14 +613,10 @@
       "city" : "Braila",
       "age" : 2,
       "giftsPreferences" : [ "Clothes" ],
-      "averageScore" : 10.0,
+      "averageScore" : 12.0,
       "niceScoreHistory" : [ 9.0 ],
-      "assignedBudget" : 172.64273920222473,
-      "receivedGifts" : [ {
-        "productName" : "Dress",
-        "price" : 45.0,
-        "category" : "Clothes"
-      } ]
+      "assignedBudget" : 135.0808302310164,
+      "receivedGifts" : [ ]
     }, {
       "id" : 8,
       "lastName" : "Stoica",
@@ -736,12 +624,12 @@
       "city" : "Oradea",
       "age" : 9,
       "giftsPreferences" : [ "Board Games" ],
-      "averageScore" : 9.0,
+      "averageScore" : 15.3,
       "niceScoreHistory" : [ 9.0 ],
-      "assignedBudget" : 155.37846528200225,
+      "assignedBudget" : 172.2280585445459,
       "receivedGifts" : [ {
-        "productName" : "Uno",
-        "price" : 10.0,
+        "productName" : "Monopoly",
+        "price" : 30.0,
         "category" : "Board Games"
       } ]
     } ]

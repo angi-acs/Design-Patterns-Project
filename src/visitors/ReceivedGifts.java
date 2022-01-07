@@ -40,9 +40,14 @@ public class ReceivedGifts implements Visitor {
                 // only one gift per category
                 // after sorting, its position also indicates that it's the cheapest
                 Gift gift = possibleGifts.get(0);
+                Integer quantity = gift.getQuantity();
                 if (budget > gift.getPrice()) {
                     receivedGifts.add(gift);
+                    gift.setQuantity(--quantity);
                     budget -= gift.getPrice();
+                }
+                if (quantity == 0) {
+                    santaClaus.getGifts().remove(gift);
                 }
             }
         }

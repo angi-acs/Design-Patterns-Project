@@ -12,6 +12,7 @@ import visitors.ElvenBudget;
 import visitors.IncreaseAge;
 import visitors.ReceivedGifts;
 import visitors.Visitor;
+import visitors.YellowElf;
 
 import java.util.ArrayList;
 
@@ -41,6 +42,8 @@ public class Simulation {
         visitors.add(elvenBudget);
         ReceivedGifts receivedGifts = new ReceivedGifts(Constants.ID);
         visitors.add(receivedGifts);
+        YellowElf yellowElf = new YellowElf();
+        visitors.add(yellowElf);
 
         visitors.forEach(santa::accept);
 
@@ -71,6 +74,8 @@ public class Simulation {
         visitors.add(elvenBudget);
         ReceivedGifts receivedGifts = new ReceivedGifts(annualChange.getStrategy());
         visitors.add(receivedGifts);
+        YellowElf yellowElf = new YellowElf();
+        visitors.add(yellowElf);
 
         visitors.forEach(santa::accept);
 

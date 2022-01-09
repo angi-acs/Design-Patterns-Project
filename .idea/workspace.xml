@@ -6,46 +6,11 @@
   <component name="ChangeListManager">
     <list default="true" id="d662010a-d6c5-4bb5-92a6-5b13c2206c94" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/checkstyle.txt" beforeDir="false" afterPath="$PROJECT_DIR$/checkstyle.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/out_12.json" beforeDir="false" afterPath="$PROJECT_DIR$/output/out_12.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/out_13.json" beforeDir="false" afterPath="$PROJECT_DIR$/output/out_13.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/out_14.json" beforeDir="false" afterPath="$PROJECT_DIR$/output/out_14.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/out_15.json" beforeDir="false" afterPath="$PROJECT_DIR$/output/out_15.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/out_16.json" beforeDir="false" afterPath="$PROJECT_DIR$/output/out_16.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/out_18.json" beforeDir="false" afterPath="$PROJECT_DIR$/output/out_18.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/out_20.json" beforeDir="false" afterPath="$PROJECT_DIR$/output/out_20.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/out_21.json" beforeDir="false" afterPath="$PROJECT_DIR$/output/out_21.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/output/out_22.json" beforeDir="false" afterPath="$PROJECT_DIR$/output/out_22.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/output/out_23.json" beforeDir="false" afterPath="$PROJECT_DIR$/output/out_23.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/out_24.json" beforeDir="false" afterPath="$PROJECT_DIR$/output/out_24.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/out_25.json" beforeDir="false" afterPath="$PROJECT_DIR$/output/out_25.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/output/out_26.json" beforeDir="false" afterPath="$PROJECT_DIR$/output/out_26.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/out_27.json" beforeDir="false" afterPath="$PROJECT_DIR$/output/out_27.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/output/out_28.json" beforeDir="false" afterPath="$PROJECT_DIR$/output/out_28.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/out_29.json" beforeDir="false" afterPath="$PROJECT_DIR$/output/out_29.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/out_30.json" beforeDir="false" afterPath="$PROJECT_DIR$/output/out_30.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/out_5.json" beforeDir="false" afterPath="$PROJECT_DIR$/output/out_5.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/out_6.json" beforeDir="false" afterPath="$PROJECT_DIR$/output/out_6.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/out_7.json" beforeDir="false" afterPath="$PROJECT_DIR$/output/out_7.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ref/ref_test18.json" beforeDir="false" afterPath="$PROJECT_DIR$/ref/ref_test18.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ref/ref_test20.json" beforeDir="false" afterPath="$PROJECT_DIR$/ref/ref_test20.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ref/ref_test21.json" beforeDir="false" afterPath="$PROJECT_DIR$/ref/ref_test21.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ref/ref_test22.json" beforeDir="false" afterPath="$PROJECT_DIR$/ref/ref_test22.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ref/ref_test23.json" beforeDir="false" afterPath="$PROJECT_DIR$/ref/ref_test23.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ref/ref_test24.json" beforeDir="false" afterPath="$PROJECT_DIR$/ref/ref_test24.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ref/ref_test25.json" beforeDir="false" afterPath="$PROJECT_DIR$/ref/ref_test25.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ref/ref_test26.json" beforeDir="false" afterPath="$PROJECT_DIR$/ref/ref_test26.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ref/ref_test27.json" beforeDir="false" afterPath="$PROJECT_DIR$/ref/ref_test27.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ref/ref_test28.json" beforeDir="false" afterPath="$PROJECT_DIR$/ref/ref_test28.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ref/ref_test29.json" beforeDir="false" afterPath="$PROJECT_DIR$/ref/ref_test29.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ref/ref_test30.json" beforeDir="false" afterPath="$PROJECT_DIR$/ref/ref_test30.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/common/Constants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/common/Constants.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fileio/AnnualChange.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fileio/AnnualChange.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fileio/InputReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fileio/InputReader.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/Simulation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Simulation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/utils/Utils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/Utils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/visitors/BonusScore.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/visitors/BonusScore.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/visitors/ReceivedGifts.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/visitors/ReceivedGifts.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

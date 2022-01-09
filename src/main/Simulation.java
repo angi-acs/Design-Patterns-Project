@@ -1,5 +1,6 @@
 package main;
 
+import common.Constants;
 import fileio.AnnualChange;
 import santa.Santa;
 import visitors.AnnualUpdate;
@@ -38,7 +39,7 @@ public class Simulation {
         visitors.add(assignedBudget);
         ElvenBudget elvenBudget = new ElvenBudget();
         visitors.add(elvenBudget);
-        ReceivedGifts receivedGifts = new ReceivedGifts();
+        ReceivedGifts receivedGifts = new ReceivedGifts(Constants.ID);
         visitors.add(receivedGifts);
 
         visitors.forEach(santa::accept);
@@ -68,7 +69,7 @@ public class Simulation {
         visitors.add(assignedBudget);
         ElvenBudget elvenBudget = new ElvenBudget();
         visitors.add(elvenBudget);
-        ReceivedGifts receivedGifts = new ReceivedGifts();
+        ReceivedGifts receivedGifts = new ReceivedGifts(annualChange.getStrategy());
         visitors.add(receivedGifts);
 
         visitors.forEach(santa::accept);

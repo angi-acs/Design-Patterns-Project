@@ -74,6 +74,7 @@ public class InputReader {
                     JSONArray jsonNewChildren = (JSONArray) ((JSONObject) change)
                             .get(Constants.NEW_CHILDREN);
                     ArrayList<Child> newChildren = readChildren(jsonNewChildren);
+                    String strategy = (String) ((JSONObject) change).get(Constants.STRATEGY);
 
                     JSONArray jsonChildrenUpdates = (JSONArray) ((JSONObject) change)
                             .get(Constants.UPDATES);
@@ -103,7 +104,7 @@ public class InputReader {
                         }
                     }
                     annualChanges.add(new AnnualChange(
-                            newSantaBudget, newGifts, newChildren, childrenUpdates));
+                            newSantaBudget, newGifts, newChildren, childrenUpdates, strategy));
                 }
             }
 

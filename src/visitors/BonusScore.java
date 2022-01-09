@@ -14,6 +14,9 @@ public class BonusScore implements Visitor {
     public void visit(final Child child) {
         double score = child.getAverageScore();
         score += score * child.getNiceScoreBonus() / Constants.HUNDRED;
+        if (score > Constants.BABY_SCORE) {
+            score = Constants.BABY_SCORE;
+        }
         child.setAverageScore(score);
     }
 

@@ -52,7 +52,9 @@ public final class Constants {
     public static final String BLACK = "black";
     public static final String PINK = "pink";
     public static final Integer ELF_BUDGET = 30;
-
+    public static final String STRATEGY = "strategy";
+    public static final String NICE_SCORE_CITY = "niceScoreCity";
+    public static final String YELLOW = "yellow";
 
     private Constants() {
         //constructor for checkstyle

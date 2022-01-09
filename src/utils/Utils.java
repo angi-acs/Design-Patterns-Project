@@ -3,6 +3,7 @@ package utils;
 import org.json.simple.JSONArray;
 
 import java.util.ArrayList;
+import java.util.LinkedHashSet;
 
 public final class Utils {
 
@@ -14,11 +15,11 @@ public final class Utils {
      */
     public static ArrayList<String> convertJSONArray(final JSONArray array) {
         if (array != null) {
-            ArrayList<String> finalArray = new ArrayList<>();
+            LinkedHashSet<String> noDuplicates = new LinkedHashSet<>();
             for (Object object : array) {
-                finalArray.add((String) object);
+                noDuplicates.add((String) object);
             }
-            return finalArray;
+            return new ArrayList<>(noDuplicates);
         } else {
             return null;
         }

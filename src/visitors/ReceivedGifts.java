@@ -1,8 +1,11 @@
 package visitors;
 
 import child.Child;
+import common.Constants;
 import santa.Gift;
 import santa.Santa;
+import strategies.Strategy;
+import strategies.StrategyFactory;
 
 import java.util.ArrayList;
 import java.util.Comparator;
@@ -11,6 +14,11 @@ import java.util.Map;
 
 public class ReceivedGifts implements Visitor {
     private Santa santaClaus;
+    private String annualStrategy;
+
+    public ReceivedGifts(final String annualStrategy) {
+        this.annualStrategy = annualStrategy;
+    }
 
     /**
      * Computes what gifts should the child receive
@@ -60,6 +68,11 @@ public class ReceivedGifts implements Visitor {
     @Override
     public void visit(final Santa santa) {
         this.santaClaus = santa;
+        StrategyFactory strategyFactory = new StrategyFactory();
+        Strategy strategy = strategyFactory.createStrategy(annualStrategy);
+        strategy.sort(santa.getChildren());
         santa.getChildren().forEach(child -> child.accept(this));
+        Strategy idStrategy = strategyFactory.createStrategy(Constants.ID);
+        idStrategy.sort(santa.getChildren());
     }
 }

@@ -14,7 +14,7 @@ import java.util.Map;
 
 public class ReceivedGifts implements Visitor {
     private Santa santaClaus;
-    private String annualStrategy;
+    private final String annualStrategy;
 
     public ReceivedGifts(final String annualStrategy) {
         this.annualStrategy = annualStrategy;
@@ -43,6 +43,8 @@ public class ReceivedGifts implements Visitor {
 
         for (Map.Entry<String, ArrayList<Gift>> entry : categories.entrySet()) {
             possibleGifts = entry.getValue();
+            // cannot assign gift if the quantity is 0
+            possibleGifts.removeIf(gift -> gift.getQuantity() == 0);
             if (!possibleGifts.isEmpty()) {
                 possibleGifts.sort(Comparator.comparingDouble(Gift::getPrice));
                 // only one gift per category
@@ -54,24 +56,27 @@ public class ReceivedGifts implements Visitor {
                     gift.setQuantity(--quantity);
                     budget -= gift.getPrice();
                 }
-                if (quantity == 0) {
-                    santaClaus.getGifts().remove(gift);
-                }
             }
         }
         child.setReceivedGifts(receivedGifts);
     }
 
     /**
+     * Creates a strategy factory in order to instantiate a
+     * concrete strategy based on a string received in an input test
      * Calls the visitor for every child in Santa's list
      */
     @Override
     public void visit(final Santa santa) {
         this.santaClaus = santa;
+
         StrategyFactory strategyFactory = new StrategyFactory();
         Strategy strategy = strategyFactory.createStrategy(annualStrategy);
         strategy.sort(santa.getChildren());
+
         santa.getChildren().forEach(child -> child.accept(this));
+
+        // reorder children by Id towards matching the ref output
         Strategy idStrategy = strategyFactory.createStrategy(Constants.ID);
         idStrategy.sort(santa.getChildren());
     }

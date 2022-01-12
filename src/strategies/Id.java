@@ -8,8 +8,7 @@ import java.util.Comparator;
 public class Id implements Strategy {
 
     /**
-     * a
-     * @param children b
+     * Sorts children by Id
      */
     @Override
     public void sort(final ArrayList<Child> children) {

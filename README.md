@@ -53,3 +53,32 @@ clasei Santa (fapt care se întâmplă după fiecare actualizare adusă de annua
 De ce l-am folosit:
 - Nu interacționează propriu-zis cu clasa Santa, ci doar observă actualizările și le scrie
   în fișierul de output (apelează metoda care le scrie)
+
+## Etapa 2
+
+Noile acțiuni au fost implementate în clase de tip vizitator (numele clasei denotă operația).
+
+### Design Patterns
+
+##### Strategy
+În cadrul pachetului *strategies* se află entitățile necesare implementării acestui design
+pattern și implementări concrete ale strategiilor. Fiecare strategie reprezintă o metodă de
+ordonare a copiilor pe baza unor diferite criterii (numele clasei reprezintă criteriul).
+
+De ce l-am folosit:
+- Operația de sortare a copiilor avea nevoie de o implementare diferită la fiecare rundă,
+dar la bază constituia aceeași acțiune - o reordonare. Prin urmare, am împărțit algoritmii
+necesari în clase de tip strategie
+- Algoritmul de sortare este implementat separat de logica operației în contextul
+căreia este folosit (este apelat în cadrul ReceivedGifts pentru a se oferi cadourile 
+în ordinea cerută)
+
+##### Factory
+Am implementat design pattern-ul Factory pentru a crea tipul de strategie menționat în
+cadrul input-ului.
+
+De ce l-am folosit:
+- Instanțierea clasei nu este relevantă în ReceivedGifts care utilizează doar metoda 
+suprascrisă în implementările concrete ale strategiilor
+- Strategia care trebuie creată depinde de un string primit la fiecare rundă. Factory 
+îmi permite să comut la **runtime** între strategiile care trebuie aplicate

@@ -2,15 +2,25 @@ package checker;
 
 import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import common.Constants;
 
 import java.io.File;
 import java.io.IOException;
 
-public final class Checker {
+public class Checker {
 
-    private Checker() {
-        // for checkstyle
+    private static final int TEST_NUMBER = 30;
+    private static final int SMALL_TEST_START = 1;
+    private static final int SMALL_TEST_END = 12;
+    private static final int SMALL_TEST_SCORE = 1;
+    private static final int MEDIUM_TEST_START = 13;
+    private static final int MEDIUM_TEST_END = 19;
+    private static final int MEDIUM_TEST_SCORE = 2;
+    private static final int LARGE_TEST_START = 20;
+    private static final int LARGE_TEST_END = 29;
+    private static final int LARGE_TEST_SCORE = 3;
+    private static final int FINAL_TEST_SCORE = 4;
+    protected Checker() {
+
     }
 
     /**
@@ -37,7 +47,7 @@ public final class Checker {
      */
     private static void calculateScoreAllTests() {
         int totalScore = 0;
-        for (int i = 1; i <= Constants.TESTS_NUMBER; i++) {
+        for (int i = 1; i <= TEST_NUMBER; i++) {
             totalScore += calculateScore(i);
         }
         System.out.println("-----------------------------------------------------");
@@ -100,16 +110,16 @@ public final class Checker {
      *      (2 for tests : 13 - 19) (3 for tests : 20 - 29) (4 for test : 30)
      */
     private static int getScoreForTest(final Integer testNumber) {
-        if (testNumber >= 1 && testNumber <= Constants.TESTS_NUMBER_SMALL) {
-            return 1;
+
+        if (testNumber >= SMALL_TEST_START && testNumber <= SMALL_TEST_END) {
+            return SMALL_TEST_SCORE;
         }
-        if (testNumber >= Constants.TESTS_MEDIUM_START
-                && testNumber <= Constants.TESTS_MEDIUM_END) {
-            return Constants.MEDIUM_TEST_POINTS;
+        if (testNumber >= MEDIUM_TEST_START && testNumber <= MEDIUM_TEST_END) {
+            return MEDIUM_TEST_SCORE;
         }
-        if (testNumber >= Constants.TESTS_BIG_START && testNumber <= Constants.TESTS_BIG_END) {
-            return Constants.BIG_TEST_POINTS;
+        if (testNumber >= LARGE_TEST_START && testNumber <= LARGE_TEST_END) {
+            return LARGE_TEST_SCORE;
         }
-        return Constants.TEST_30;
+        return FINAL_TEST_SCORE;
     }
 }

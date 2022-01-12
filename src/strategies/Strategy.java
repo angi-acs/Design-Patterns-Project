@@ -7,8 +7,7 @@ import java.util.ArrayList;
 public interface Strategy {
 
     /**
-     * a
-     * @param children b
+     * Child sorting strategy
      */
     void sort(ArrayList<Child> children);
 }

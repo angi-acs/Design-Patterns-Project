@@ -2,19 +2,10 @@ package common;
 
 public final class Constants {
     public static final String OUTPUT_PATH = "output/out_";
-    public static final String REF_PATH = "ref/ref_test";
     public static final String FILE_EXTENSION = ".json";
-    public static final Integer MEDIUM_TEST_POINTS = 2;
     public static final Integer BIG_TEST_POINTS = 3;
-    public static final Integer TESTS_NUMBER = 30;
     public static final Integer MAXIMUM_ERROR_CHECKSTYLE = 30;
     public static final Integer CHECKSTYLE_POINTS = 10;
-    public static final Integer TESTS_NUMBER_SMALL = 12;
-    public static final Integer TESTS_BIG_END = 29;
-    public static final Integer TESTS_BIG_START = 20;
-    public static final Integer TESTS_MEDIUM_END = 19;
-    public static final Integer TESTS_MEDIUM_START = 13;
-    public static final Integer TEST_30 = 4;
 
     // my constants
     public static final String TESTS_PATH = "tests/";

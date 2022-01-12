@@ -5,9 +5,9 @@ import common.Constants;
 public class StrategyFactory {
 
     /**
-     * a
-     * @param strategy b
-     * @return c
+     * @param strategy given strategy (as a string)
+     *                from input test
+     * @return new instance of a concrete strategy
      */
     public Strategy createStrategy(final String strategy) {
         switch (strategy) {

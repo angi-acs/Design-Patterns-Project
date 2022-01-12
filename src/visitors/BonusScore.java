@@ -5,10 +5,9 @@ import common.Constants;
 import santa.Santa;
 
 public class BonusScore implements Visitor {
-
     /**
-     * a
-     * @param child object to be visited
+     * Adds a nice score bonus to the average score,
+     * also checks to not exceed the maximum allowed
      */
     @Override
     public void visit(final Child child) {
@@ -21,8 +20,7 @@ public class BonusScore implements Visitor {
     }
 
     /**
-     * a
-     * @param santa object to be visited
+     * Calls the visitor for every child in Santa's list
      */
     @Override
     public void visit(final Santa santa) {

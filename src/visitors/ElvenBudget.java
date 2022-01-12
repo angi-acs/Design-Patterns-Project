@@ -5,10 +5,9 @@ import common.Constants;
 import santa.Santa;
 
 public class ElvenBudget implements Visitor {
-
     /**
-     * a
-     * @param child object to be visited
+     * Increases or decreases a child's budget
+     * based on the elf assigned to him/her
      */
     @Override
     public void visit(final Child child) {
@@ -23,8 +22,7 @@ public class ElvenBudget implements Visitor {
     }
 
     /**
-     * a
-     * @param santa object to be visited
+     * Calls the visitor for every child in Santa's list
      */
     @Override
     public void visit(final Santa santa) {
